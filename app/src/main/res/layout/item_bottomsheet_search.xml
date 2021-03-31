@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="rtl"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/construction_name"
+        style="@style/txtStyleItemList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text=" أسيل العمصيأسيل العمصيأسيل العمصيأسيل العمصي أسيل العمصي "
+        android:layout_alignParentStart="true"
+        android:layout_toRightOf="@+id/construction_number"
+      />
+
+
+    <TextView
+        android:id="@+id/construction_number"
+        style="@style/txtStyleItemList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:text="532558445487"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contener_move_facilty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/card_view_background"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:context=".featuers.home.FacilityServices.MoveTheFacility.view.MoveTheFacilityFragment">
+
+
+            <TextView
+                android:id="@+id/tv_official_business_name"
+                style="@style/txtStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/official_business_name"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/ed_tv_official_business_name"
+                style="@style/editTxtStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_official_business_name" />
+
+
+
+            <TextView
+                android:id="@+id/tv_trade_business_name"
+                style="@style/txtStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/trade_business_name"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/ed_tv_trade_business_name"
+                style="@style/editTxtStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_trade_business_name" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tv_date_visit"
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:text="@string/date_visit"
+                       />
+                    <TextView
+                        android:id="@+id/ed_date_visit"
+                        style="@style/datePickerStyle"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="8dp"
+                        android:drawableEnd="@drawable/ic_calendar"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_governorate"
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:text="@string/governorate"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/ed_nu_facility" />
+
+                    <TextView
+                        android:id="@+id/ed_governorate"
+                        style="@style/editTxtStyle"
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+
+                        android:drawableEnd="@drawable/ic_baseline_arrow_drop_down"
+                        />
+
+
+                    <TextView
+                        android:id="@+id/tv_region"
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:text="@string/region"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/ed_nu_facility" />
+
+                    <TextView
+                        android:id="@+id/ed_region"
+                        style="@style/editTxtStyle"
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:drawableEnd="@drawable/ic_baseline_arrow_drop_down"
+
+                        />
+
+
+                    <TextView
+                        android:id="@+id/tv_street_detail"
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:text="@string/street_detail"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/ed_nu_facility" />
+
+                    <EditText
+                        android:inputType="text"
+                        android:id="@+id/ed_street_detail"
+                        style="@style/editTxtStyle"
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_title_description"
+                        style="@style/txtStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/title_description"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <EditText
+                        android:id="@+id/ed_title_description"
+                        style="@style/editTxtStyle"
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="8dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                         />
+
+                    <TextView
+                        android:id="@+id/tv_long"
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:text="@string/longitude"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/ed_nu_facility" />
+
+                    <EditText
+                        android:id="@+id/ed_long"
+                        style="@style/editTxtStyle"
+                        android:inputType="number"
+                        android:layout_width="match_parent"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1" />
+
+
+                    <TextView
+                        android:id="@+id/tv_phone_number"
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:inputType="phone"
+                        android:layout_weight="1"
+                        android:text="@string/construction_mobile"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/ed_nu_facility" />
+
+                    <EditText
+                        android:id="@+id/ed_phone_number"
+                        style="@style/editTxtStyle"
+                        android:maxLength="10"
+                        android:inputType="phone"
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+
+                        />
+                    <TextView
+                        android:id="@+id/tv_mailbox_number"
+                        style="@style/txtStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/mailbox_number"
+                        />
+
+                    <EditText
+                        android:id="@+id/ed_mailbox_number"
+                        style="@style/editTxtStyle"
+                        android:inputType="number"
+                        android:layout_marginEnd="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        />
+
+
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tv_sn_number"
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:text="@string/id"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/ed_nu_facility" />
+
+                    <TextView
+                        android:id="@+id/ed_sn_number"
+                        style="@style/editTxtStyle"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/dark_gray"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_municipal"
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:text="@string/municipal"
+
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/ed_nu_facility" />
+
+
+                    <TextView
+                        android:id="@+id/ed_municipal"
+                        style="@style/editTxtStyle"
+                        android:layout_width="match_parent"
+                        android:layout_marginStart="8dp"
+                        android:drawableEnd="@drawable/ic_baseline_arrow_drop_down"
+                        android:layout_weight="1" />
+
+
+                    <TextView
+                        android:id="@+id/tv_street"
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:text="@string/street"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/ed_nu_facility" />
+
+                    <EditText
+                        android:id="@+id/ed_street"
+                        style="@style/editTxtStyle"
+                        android:layout_width="match_parent"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/tv_building_num"
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:text="@string/number_bulding"
+                        />
+
+
+                    <EditText
+                        android:id="@+id/ed_building_num"
+                        style="@style/editTxtStyle"
+                        android:inputType="number"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_lat"
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:text="@string/lat"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/ed_nu_facility" />
+
+                    <EditText
+                        android:id="@+id/ed_lat"
+                        style="@style/editTxtStyle"
+                        android:inputType="number"
+                        android:layout_width="match_parent"
+
+                        android:layout_weight="1"
+
+                        />
+                    <TextView
+                        android:id="@+id/tv_telephone"
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:text="@string/construction_telephone"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/ed_nu_facility" />
+
+                    <EditText
+                        android:id="@+id/ed_telephone"
+                        style="@style/editTxtStyle"
+                        android:inputType="number"
+                        android:layout_width="match_parent"
+                        android:layout_marginStart="8dp"
+                        android:maxLength="9"
+                        android:layout_weight="1" />
+
+
+                    <TextView
+                        android:id="@+id/tv_fax_num"
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:text="@string/fax_num"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/ed_nu_facility" />
+
+                    <EditText
+                        android:id="@+id/ed_fax_num"
+                        style="@style/editTxtStyle"
+                        android:inputType="number"
+
+                        android:layout_width="match_parent"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1" />
+
+
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+            <TextView
+                android:id="@+id/tv_electronic_page"
+                style="@style/txtStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/electronic_page"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/ed_electronic_page"
+                style="@style/editTxtStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_nu_facility" />
+
+
+            <TextView
+                android:id="@+id/tv_email"
+                style="@style/txtStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/email"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/ed_email"
+                style="@style/editTxtStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_nu_facility" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_dangerous_degree"
+                        style="@style/txtStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/dangerous_degree"
+                        />
+
+                    <EditText
+                        android:id="@+id/ed_dangerous_degree"
+                        style="@style/editTxtStyle"
+                        android:inputType="number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+
+                        />
+
+                    <Button
+                        android:id="@+id/btn_save_move_facility"
+                        style="@style/btnStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:text="@string/save" />
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_construction_no"
+                        style="@style/txtStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/numberfacility"
+                        />
+
+                    <TextView
+                        android:id="@+id/ed_construction_no"
+                        style="@style/editTxtStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/dark_gray"
+
+                        />
+
+                    <Button
+                        android:id="@+id/btn_save_with_approve"
+                        style="@style/btnStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        app:backgroundTint="@color/green"
+                        android:text="@string/save_with_approve" />
+
+
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/step_1_main_data"
+        android:title="@string/major_services" />
+
+    <item android:id="@+id/step_2_work_status"
+        android:title="@string/work_status_data" />
+
+    <item android:id="@+id/step_3_health_status"
+        android:title="@string/health_status"/>
+
+
+</menu>

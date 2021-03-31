@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context=".featuers.home.homeFiles.holandTest.view.HolandTestMainFragment">
+
+
+        <TextView
+            android:id="@+id/tv_has_uncomplete_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+
+            android:background="@drawable/colored_border"
+            android:fontFamily="@font/cairobold"
+            android:padding="10dp"
+            android:text="@string/has_uncomplete_test"
+            android:textColor="@color/red"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_major_services"
+            style="@style/btnStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_has_uncomplete_test"
+            android:padding="20dp"
+            android:text="@string/major_services"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/caramel_color" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_dream_career"
+            style="@style/btnStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_major_services"
+            android:layout_marginTop="8dp"
+            android:padding="20dp"
+            android:text="@string/dream_career"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/dark_green_opacity" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_activities"
+            style="@style/btnStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_dream_career"
+            android:layout_marginTop="8dp"
+            android:padding="20dp"
+            android:text="@string/activities"
+            android:textColor="@color/black"
+
+            app:backgroundTint="@color/dark_purple_opacity" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_competencies"
+            style="@style/btnStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_activities"
+            android:layout_marginTop="8dp"
+            android:padding="20dp"
+            android:text="@string/competencies"
+            android:textColor="@color/black"
+
+            app:backgroundTint="@color/cyan_opacity" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_careers"
+            style="@style/btnStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_competencies"
+            android:layout_marginTop="8dp"
+            android:padding="20dp"
+            android:text="@string/careers"
+            android:textColor="@color/black"
+
+            app:backgroundTint="@color/gray_opacity" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_self_evaluation"
+            style="@style/btnStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_careers"
+            android:layout_marginTop="8dp"
+            android:padding="20dp"
+            android:text="@string/self_evaluation"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/light_purple_opacity" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_result"
+            style="@style/btnStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_self_evaluation"
+            android:layout_marginTop="8dp"
+            android:padding="20dp"
+            android:text="@string/result"
+            android:textColor="@color/black"
+            android:visibility="gone"
+            app:backgroundTint="@color/colorPrimary" />
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="visible"
+
+            />
+
+
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

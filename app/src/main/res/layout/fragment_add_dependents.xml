@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+
+    android:padding="10dp"
+    android:textDirection="rtl"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:orientation="vertical">
+
+
+        <TextView
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/PalestinianID" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/edit_txt_bg"
+            android:weightSum="6"
+          >
+
+
+            <EditText
+                android:id="@+id/et_dependent_sn"
+                style="@style/editTxtStyle"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:maxLength="9"
+                android:inputType="number" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/btn_get_dependent_data"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:src="@drawable/ic_search"
+                android:padding="8dp"
+                android:layout_height="38dp"
+                android:background="@drawable/edit_txt_bg"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_width="0dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="6dp"
+            android:layout_weight="1"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/txtStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="@string/FirstName" />
+
+                <TextView
+                    android:id="@+id/et_first_name"
+                    style="@style/editTxtStyle"
+                    android:layout_width="match_parent"
+                     />
+
+                <TextView
+                    style="@style/txtStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="@string/GrandfatherName" />
+
+                <TextView
+                    android:id="@+id/et_third_name"
+                    style="@style/editTxtStyle"
+                    android:layout_width="match_parent"
+                    />
+
+                <TextView
+                    style="@style/txtStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="@string/relative_relation" />
+
+                <TextView
+                    android:id="@+id/et_relation_ship"
+                    style="@style/editTxtStyle"
+                    android:layout_width="match_parent"
+                  />
+
+                <TextView
+                    style="@style/txtStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="@string/occupation" />
+
+                <TextView
+                    android:id="@+id/et_job"
+                    style="@style/editTxtStyle"
+                    android:layout_width="match_parent"
+                     />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/txtStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="@string/FatherName" />
+
+                <TextView
+                    android:id="@+id/et_second_name"
+                    style="@style/editTxtStyle"
+                    android:layout_width="match_parent"
+                   />
+
+                <TextView
+                    style="@style/txtStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="@string/Family" />
+
+                <TextView
+                    android:id="@+id/et_family_name"
+
+                    style="@style/editTxtStyle"
+                    android:layout_width="match_parent"
+                  />
+
+                <TextView
+                    style="@style/txtStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="@string/DateOfBirth" />
+
+                <TextView
+                    android:id="@+id/tv_birth_date_dependents"
+                    style="@style/datePickerStyle"
+                    android:layout_width="match_parent"
+                    android:drawableEnd="@drawable/ic_calendar"
+                    android:textDirection="rtl" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_save_new_dependents"
+        style="@style/btnStyle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:text="@string/Save" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

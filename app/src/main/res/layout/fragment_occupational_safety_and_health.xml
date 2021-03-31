@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layoutDirection="rtl"
+    tools:context=".featuers.home.homeFiles.inspection.view.occupationalSafetyAndHealth.OccupationalSafetyAndHealthFragment">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_safety_questions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="10dp"
+        />
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_below="@+id/rv_safety_questions"
+        android:visibility="gone"
+        android:id="@+id/btn_save"
+        android:layout_marginBottom="20dp"
+        style="@style/btnStyle"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+    android:layout_alignParentBottom="true"
+        android:text="@string/Save" />
+
+
+    <ImageView
+        android:id="@+id/btn_next"
+        android:src="@drawable/ic_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="10dp"
+        android:visibility="gone"
+        android:layout_toEndOf="@+id/btn_save"
+        android:layout_alignParentBottom="true"
+
+
+       />
+
+
+
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+   android:layout_centerInParent="true"
+        android:layout_gravity="center" />
+
+</RelativeLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="20dp"
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_view_filled_background"
+        android:layoutDirection="rtl"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_facility_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            android:fontFamily="@font/cairobold"
+            android:text="@string/facility_name"
+            android:paddingStart="10dp"
+            />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_revisit"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:text="@string/re_visit"
+            android:textColor="@color/white"
+            android:drawableStart="@drawable/ic_refresh"
+            android:textSize="10sp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:background="@drawable/circle_button_background"
+            android:backgroundTint="@color/green"
+            />
+
+        <LinearLayout
+            android:id="@+id/ll_directorate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/tv_facility_name"
+            android:layout_marginTop="15dp"
+            android:weightSum="5"
+            >
+
+            <TextView
+                android:id="@+id/tv_directorate_label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:fontFamily="@font/cairobold"
+                android:text="@string/directorate_label"
+                android:paddingStart="10dp"
+                android:layout_weight="2"
+                android:padding="10dp"
+                android:background="@color/white"
+                android:layout_marginEnd="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_directorate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="10sp"
+                android:fontFamily="@font/cairobold"
+                android:text="@string/directorate_label"
+                android:paddingStart="10dp"
+                android:layout_weight="3"
+                android:padding="10dp"
+                android:background="@color/white"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_inspections_Date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/ll_directorate"
+            android:layout_marginTop="5dp"
+            android:weightSum="5"
+            >
+
+            <TextView
+                android:id="@+id/tv_inspection_start_date_label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:fontFamily="@font/cairobold"
+                android:text="@string/inspection_start_date"
+                android:paddingStart="10dp"
+                android:layout_weight="2"
+                android:padding="10dp"
+                android:background="@color/white"
+                android:layout_marginEnd="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_inspection_start_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="10sp"
+                android:fontFamily="@font/cairobold"
+                android:text="@string/directorate_label"
+                android:paddingStart="10dp"
+                android:layout_weight="3"
+                android:padding="10dp"
+                android:background="@color/white"
+                />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_procedures"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/red"
+            android:textSize="12sp"
+            android:fontFamily="@font/cairobold"
+            android:text="@string/procedures"
+            android:paddingStart="10dp"
+            android:padding="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_below="@+id/ll_inspections_Date"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="4"
+            android:orientation="horizontal"
+            android:layout_below="@+id/tv_procedures"
+            >
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_start_visit"
+                android:layout_marginStart="5dp"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:text="@string/start_visit"
+                android:textColor="@color/white"
+                android:textSize="8sp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:background="@drawable/circle_button_background"
+                android:backgroundTint="@color/orange"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_additional_services"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:text="@string/additional_services"
+                android:textColor="@color/white"
+                android:textSize="8sp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:background="@drawable/circle_button_background"
+                android:backgroundTint="@color/colorPrimary"
+                />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_inspection_result"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:text="@string/inspection_result"
+                android:textColor="@color/white"
+                android:textSize="8sp"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:background="@drawable/circle_button_background"
+                android:backgroundTint="@color/dark_blue"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_display_result"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:text="@string/display_result"
+                android:textColor="@color/white"
+                android:textSize="8sp"
+                android:paddingStart="5dp"
+                android:visibility="gone"
+                android:paddingEnd="5dp"
+                android:background="@drawable/circle_button_background"
+                android:backgroundTint="@color/purple"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_recommendation"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:text="@string/recommendation"
+                android:textColor="@color/white"
+                android:textSize="8sp"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:background="@drawable/circle_button_background"
+                android:backgroundTint="@color/anything"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

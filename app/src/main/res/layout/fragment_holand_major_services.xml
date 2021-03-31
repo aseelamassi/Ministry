@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".featuers.home.homeFiles.holandTest.view.HolandMajorServicesFragment">
+
+
+    <TextView
+        android:id="@+id/tv_full_name"
+        style="@style/txtStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/full_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ed_full_name"
+        style="@style/editTxtStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/dark_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/tv_full_name"
+        app:layout_constraintTop_toBottomOf="@id/tv_full_name" />
+
+
+
+
+    <TextView
+        android:id="@+id/tv_birth_date"
+        style="@style/txtStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/DateOfBirth"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ed_full_name"/>
+
+    <TextView
+        android:id="@+id/ed_birth_date"
+        style="@style/editTxtStyle"
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/dark_gray"
+        android:drawableEnd="@drawable/ic_calendar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/tv_birth_date"
+        app:layout_constraintTop_toBottomOf="@id/tv_birth_date" />
+
+
+
+
+    <TextView
+        android:id="@+id/tv_gender"
+        style="@style/txtStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/Gender"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ed_birth_date" />
+
+
+    <TextView
+        android:id="@+id/ed_gender"
+        style="@style/datePickerStyle"
+        android:layout_width="0dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/dark_gray"
+
+        app:layout_constraintEnd_toStartOf="@id/guideline"
+        app:layout_constraintStart_toStartOf="@id/tv_gender"
+        app:layout_constraintTop_toBottomOf="@id/tv_gender" />
+
+
+
+    <TextView
+        android:id="@+id/tv_age"
+        style="@style/txtStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:text="@string/age"
+        app:layout_constraintStart_toEndOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/ed_birth_date" />
+
+
+    <TextView
+        android:id="@+id/ed_age"
+        style="@style/datePickerStyle"
+        android:layout_width="0dp"
+
+        android:backgroundTint="@color/dark_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/tv_age"
+        app:layout_constraintTop_toBottomOf="@id/tv_age" />
+
+
+
+
+    <TextView
+        android:id="@+id/tv_number_of_years"
+        style="@style/txtStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/years_number_finished"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ed_gender"/>
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/ed_number_of_years"
+        style="@style/editTxtStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="2"
+        android:drawableEnd="@drawable/ic_directions"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/tv_number_of_years"
+        app:layout_constraintTop_toBottomOf="@id/tv_number_of_years" />
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        >
+
+
+
+
+        <ImageView
+            android:id="@+id/btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_next_page"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            />
+
+        <Button
+            android:id="@+id/btn_save"
+            style="@style/btnStyle"
+            android:layout_width="wrap_content"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:layout_centerHorizontal="true"
+
+            />
+        <ImageView
+            android:id="@+id/btn_prev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_prev"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            />
+
+
+
+    </RelativeLayout>
+
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.50" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

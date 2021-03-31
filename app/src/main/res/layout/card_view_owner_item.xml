@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/card_view_background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/mercury"
+    android:layout_marginBottom="10dp"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layoutDirection="rtl">
+
+    <TextView
+        android:id="@+id/tv_owner_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/txtStyle"
+        android:text="@string/owner_name"
+        />
+
+    <TextView
+        android:id="@+id/tv_owner_start_work"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/txtStyle"
+        android:text="@string/owner_start_work_date"
+        />
+
+    <TextView
+        android:id="@+id/tv_owner_sn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/txtStyle"
+        android:text="@string/owner_sn"
+        />
+
+
+
+</LinearLayout>

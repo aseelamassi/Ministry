@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layoutDirection="rtl"
+    tools:context=".featuers.home.homeFiles.inspection.view.additionalServices.insertWorker.InsertWorkerFragment">
+
+
+    <com.badoualy.stepperindicator.StepperIndicator
+        android:id="@+id/stepper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        app:stpi_lineColor = "#75ACE4"
+        app:stpi_showDoneIcon ="true"
+        app:stpi_showLabels="true"
+        app:stpi_circleColor="@color/colorPrimary"
+        app:stpi_lineDoneColor = "@color/green"
+        app:stpi_indicatorColor="@color/green"
+
+        app:stpi_stepCount="3"/>
+
+
+
+    <com.sh.wm.ministry.custem.NonSwipeableViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_above="@+id/btn_next"
+        android:layout_below="@+id/stepper"
+
+
+        />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_next"
+        style="@style/btnStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/next" />
+
+
+</RelativeLayout>

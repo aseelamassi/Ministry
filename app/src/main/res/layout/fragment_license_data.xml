@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layoutDirection="rtl"
+        android:padding="10dp"
+        android:background="@drawable/card_view_background"
+        tools:context=".featuers.home.homeFiles.inspection.view.additionalServices.editConstructionData.LicenseDataFragment">
+
+
+        <TextView
+            android:id="@+id/tv_licensed_label"
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/is_the_construction_licensed"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <RadioGroup
+            android:id="@+id/rg_is_licensed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_licensed_label">
+
+
+
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/tv_licensed_side_label"
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/licensed_side"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/rg_is_licensed" />
+
+        <TextView
+            android:id="@+id/ed_licensed_side"
+            style="@style/datePickerStyle"
+            android:layout_width="0dp"
+
+            android:enabled="false"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toStartOf="@id/guideline"
+            app:layout_constraintStart_toStartOf="@id/tv_licensed_side_label"
+            app:layout_constraintTop_toBottomOf="@id/tv_licensed_side_label" />
+
+
+        <TextView
+            android:id="@+id/tv_licensed_number_label"
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+
+            android:text="@string/licensed_number"
+            app:layout_constraintStart_toEndOf="@id/guideline"
+            app:layout_constraintTop_toBottomOf="@id/rg_is_licensed" />
+
+        <EditText
+            android:id="@+id/ed_licensed_number"
+            style="@style/datePickerStyle"
+            android:layout_width="0dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/tv_licensed_number_label"
+            app:layout_constraintTop_toBottomOf="@id/tv_licensed_number_label" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:visibility="gone"
+            android:id="@+id/btn_add_file"
+            style="@style/btnStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:drawableStart="@drawable/ic_pin"
+            android:text="@string/add_file"
+            app:layout_constraintEnd_toStartOf="@id/guideline"
+            app:layout_constraintStart_toStartOf="@id/ed_licensed_side"
+            app:layout_constraintTop_toBottomOf="@id/ed_licensed_side" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_save_licensed"
+            style="@style/btnStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/green"
+            android:visibility="gone"
+            android:text="@string/save_licensed_side"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/guideline"
+            app:layout_constraintTop_toBottomOf="@id/ed_licensed_number" />
+
+
+        <TextView
+            android:id="@+id/tv_registration_label"
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/is_the_construction_registration"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_add_file" />
+
+
+        <RadioGroup
+            android:id="@+id/rg_is_registration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_registration_label">
+
+
+
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/tv_registration_side_label"
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/registration_side"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/rg_is_registration" />
+
+        <TextView
+            android:id="@+id/ed_registration_side"
+            style="@style/datePickerStyle"
+            android:layout_width="0dp"
+            android:layout_marginEnd="8dp"
+            android:enabled="false"
+
+            app:layout_constraintEnd_toStartOf="@id/guideline"
+            app:layout_constraintStart_toStartOf="@id/tv_registration_side_label"
+            app:layout_constraintTop_toBottomOf="@id/tv_registration_side_label" />
+
+
+        <TextView
+            android:id="@+id/tv_registration_number_label"
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/registration_number"
+            app:layout_constraintStart_toEndOf="@id/guideline"
+            app:layout_constraintTop_toBottomOf="@id/rg_is_registration" />
+
+        <EditText
+            android:id="@+id/ed_registration_number"
+            style="@style/datePickerStyle"
+            android:layout_width="0dp"
+            android:layout_marginStart="8dp"
+            android:enabled="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/tv_registration_number_label"
+            app:layout_constraintTop_toBottomOf="@id/tv_registration_number_label" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_add_file_registration"
+            style="@style/btnStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:drawableStart="@drawable/ic_pin"
+            android:text="@string/add_file"
+            app:layout_constraintEnd_toStartOf="@id/guideline"
+            app:layout_constraintStart_toStartOf="@id/ed_registration_side"
+            app:layout_constraintTop_toBottomOf="@id/ed_registration_side" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_save_registration"
+            style="@style/btnStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/green"
+            android:text="@string/save_licensed_side"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/guideline"
+            app:layout_constraintTop_toBottomOf="@id/ed_registration_number" />
+
+
+        <TextView
+            android:id="@+id/tv_insurance_label"
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/is_there_an_insurance"
+            android:textColor="@color/black"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_add_file_registration" />
+
+
+        <RadioGroup
+            android:id="@+id/rg_insurance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_insurance_label">
+
+
+
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/tv_insurance_company_label"
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/insurance_company"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/rg_insurance" />
+
+        <TextView
+            android:id="@+id/ed_insurance_company"
+            style="@style/datePickerStyle"
+            android:layout_width="0dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toStartOf="@id/guideline"
+            app:layout_constraintStart_toStartOf="@id/tv_insurance_company_label"
+            app:layout_constraintTop_toBottomOf="@id/tv_insurance_company_label" />
+
+
+        <TextView
+            android:id="@+id/tv_insurance_number_label"
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/insurance_number"
+            app:layout_constraintStart_toEndOf="@id/guideline"
+            app:layout_constraintTop_toBottomOf="@id/rg_insurance" />
+
+        <EditText
+            android:id="@+id/ed_insurance_number"
+            style="@style/datePickerStyle"
+            android:layout_width="0dp"
+            android:inputType="number"
+            android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/tv_insurance_number_label"
+            app:layout_constraintTop_toBottomOf="@id/tv_insurance_number_label" />
+
+
+        <TextView
+            android:id="@+id/tv_insurance_end_date_label"
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/insurance_end_date"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ed_insurance_company" />
+
+        <TextView
+            android:id="@+id/ed_insurance_end_date"
+            style="@style/datePickerStyle"
+            android:layout_width="0dp"
+            android:layout_marginEnd="8dp"
+            android:drawableEnd="@drawable/ic_calendar"
+            app:layout_constraintEnd_toStartOf="@id/guideline"
+            app:layout_constraintStart_toStartOf="@id/tv_insurance_end_date_label"
+            app:layout_constraintTop_toBottomOf="@id/tv_insurance_end_date_label" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_add_file_insurance"
+            style="@style/btnStyle"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:text="@string/add_file"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/guideline"
+            app:layout_constraintTop_toBottomOf="@id/tv_insurance_end_date_label" />
+
+
+        <TextView
+            android:id="@+id/tv_internal_system_label"
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/is_there_an_internal_system"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ed_insurance_end_date" />
+
+
+        <RadioGroup
+            android:id="@+id/rg_internal_system"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_internal_system_label">
+
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/tv_internal_system_confirmed_label"
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/is_the_internal_system_confirmed"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/rg_internal_system" />
+
+
+        <RadioGroup
+            android:id="@+id/rg_internal_system_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_internal_system_confirmed_label">
+
+
+        </RadioGroup>
+
+
+
+        <TextView
+            android:id="@+id/tv_total_work_hour_label"
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/total_work_hour"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/rg_internal_system_confirm" />
+
+
+        <EditText
+            android:id="@+id/ed_total_work_hour"
+            style="@style/editTxtStyle"
+            android:layout_width="match_parent"
+            android:layout_marginEnd="8dp"
+            android:inputType="number"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_total_work_hour_label" />
+
+
+
+        <TextView
+            android:id="@+id/tv_construction_work_time_label"
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/construction_work_time"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ed_total_work_hour" />
+
+
+        <RadioGroup
+            android:id="@+id/rg_construction_work_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_construction_work_time_label">
+
+
+
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/tv_construction_capital_label"
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/construction_capital"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/rg_construction_work_time" />
+
+        <EditText
+            android:id="@+id/ed_construction_capital"
+            style="@style/datePickerStyle"
+            android:layout_width="0dp"
+            android:layout_marginEnd="8dp"
+            android:inputType="number"
+            app:layout_constraintEnd_toStartOf="@id/guideline"
+            app:layout_constraintStart_toStartOf="@id/tv_construction_capital_label"
+            app:layout_constraintTop_toBottomOf="@id/tv_construction_capital_label" />
+
+
+        <TextView
+            android:id="@+id/tv_income_level_label"
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/construction_income_level"
+            app:layout_constraintStart_toEndOf="@id/guideline"
+            app:layout_constraintTop_toBottomOf="@id/rg_construction_work_time" />
+
+        <EditText
+            android:id="@+id/ed_income_level"
+            style="@style/datePickerStyle"
+            android:layout_width="0dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/tv_income_level_label"
+            app:layout_constraintTop_toBottomOf="@id/tv_income_level_label" />
+
+
+<!--        <androidx.appcompat.widget.AppCompatButton-->
+<!--            android:id="@+id/btn_save"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            style="@style/btnStyle"-->
+<!--            android:text="@string/save"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/ed_income_level" />-->
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_save"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            style="@style/btnStyle"
+            android:text="@string/save"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toStartOf="@id/guideline"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ed_income_level" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_save_with_approve"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            style="@style/btnStyle"
+            android:text="@string/save_with_approve"
+            app:backgroundTint="@color/green"
+            android:layout_marginEnd="8dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/guideline"
+            app:layout_constraintTop_toBottomOf="@id/ed_income_level" />
+
+
+
+        <TextView
+            android:id="@+id/tv_construction_license_side_label"
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/licensed_sides"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_save"/>
+
+
+        <TextView
+            android:id="@+id/tv_construction_license_side_empty"
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/licensed_sides_empty"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_construction_license_side_label"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_license_side"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_construction_license_side_label"
+            />
+
+
+
+        <TextView
+            android:id="@+id/tv_construction_registration_side_label"
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/registration_sides"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/rv_license_side"/>
+
+
+        <TextView
+            android:id="@+id/tv_construction_registration_side_empty"
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/registered_sides_empty"
+            android:textColor="@color/colorPrimary"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_construction_registration_side_label"/>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_registration_side"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_construction_registration_side_label"
+            />
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.50" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

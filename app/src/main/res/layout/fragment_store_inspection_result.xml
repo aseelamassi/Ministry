@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layoutDirection="rtl"
+    tools:context=".featuers.home.homeFiles.inspection.view.storeInspectionResult.StoreInspectionResultFragment">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/tv_action_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="16sp"
+        android:textColor="@color/jordy_blue"
+        android:text="@string/recommend_this_action"
+        android:fontFamily="@font/cairosemibold"
+
+        />
+
+
+    <RadioGroup
+        android:id="@+id/rg_action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_action_label">
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/radio_button_procedures_1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:fontFamily="@font/cairosemibold"-->
+<!--            android:textSize="14sp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:text="@string/cloase_facility" />-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/radio_button_procedures_2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:fontFamily="@font/cairosemibold"-->
+<!--            android:textSize="14sp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:text="@string/stop_machine" />-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/radio_button_procedures_3"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:fontFamily="@font/cairosemibold"-->
+<!--            android:textSize="14sp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:text="@string/partial_closure" />-->
+
+
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/tv_recommendation_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/jordy_blue"
+        android:text="@string/take_procedures"
+        android:fontFamily="@font/cairosemibold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rg_action"
+
+        />
+
+
+    <RadioGroup
+        android:id="@+id/rg_recommendation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_recommendation_label">
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/radio_button_recommendation_1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:fontFamily="@font/cairosemibold"-->
+<!--            android:textSize="14sp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:text="@string/cloase_facility" />-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/radio_button_recommendation_2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:fontFamily="@font/cairosemibold"-->
+<!--            android:textSize="14sp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:text="@string/stop_machine" />-->
+
+
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/tv_placement_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/jordy_blue"
+        android:text="@string/take_procedures"
+        android:fontFamily="@font/cairosemibold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rg_recommendation"
+
+        />
+
+    <RadioGroup
+        android:id="@+id/rg_placement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_placement_label">
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/radio_button_placement_1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:fontFamily="@font/cairosemibold"-->
+<!--            android:textSize="14sp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:text="@string/cloase_facility" />-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/radio_button_placement_2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:fontFamily="@font/cairosemibold"-->
+<!--            android:textSize="14sp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:text="@string/stop_machine" />-->
+
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/radio_button_placement_3"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:fontFamily="@font/cairosemibold"-->
+<!--            android:textSize="14sp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:text="@string/partial_closure" />-->
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_reasons_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/jordy_blue"
+        android:text="@string/reasons"
+        android:fontFamily="@font/cairosemibold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rg_placement"
+        />
+
+    <EditText
+        android:id="@+id/et_reasons"
+        style="@style/editTxtStyle"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:maxLines="5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_reasons_label" />
+
+
+    <TextView
+        android:id="@+id/tv_date"
+        style="@style/txtStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:text="@string/date_visit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_reasons" />
+
+
+    <TextView
+        android:id="@+id/ed_date"
+        style="@style/datePickerStyle"
+        android:layout_width="0dp"
+        android:layout_marginEnd="8dp"
+        android:drawableEnd="@drawable/ic_calendar"
+        app:layout_constraintEnd_toStartOf="@id/guideline"
+        app:layout_constraintStart_toStartOf="@id/tv_date"
+        app:layout_constraintTop_toBottomOf="@id/tv_date" />
+
+
+
+
+    <TextView
+        android:id="@+id/tv_machine_label"
+        style="@style/txtStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:text="@string/machine_name"
+        app:layout_constraintStart_toEndOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/et_reasons" />
+
+    <EditText
+        android:id="@+id/et_machine_name"
+        style="@style/editTxtStyle"
+        android:layout_width="0dp"
+        android:layout_marginStart="8dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/tv_machine_label"
+        app:layout_constraintTop_toBottomOf="@id/tv_machine_label" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        style="@style/btnStyle"
+        android:text="@string/save"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ed_date" />
+
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.50" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

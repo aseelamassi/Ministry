@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/tv_count"
+        style="@style/txtStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="16sp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_law_number"
+        style="@style/txtStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_count"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tv_law_text"
+        android:fontFamily="@font/cairosemibold"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/tv_law_number"
+        app:layout_constraintTop_toBottomOf="@+id/tv_law_number"
+        android:layout_marginBottom="10dp"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/rg_commitment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/tv_law_text"
+        app:layout_constraintTop_toBottomOf="@+id/tv_law_text"
+        android:orientation="vertical"
+        >
+
+        <RadioButton
+            android:id="@+id/rb_committed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/committed" />
+
+        <RadioButton
+            android:id="@+id/rb_not_committed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/not_committed" />
+
+
+
+    </RadioGroup>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/health_status" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/editTxtStyle"
+            android:id="@+id/et_healh_status"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:focusable="false"
+            android:drawableEnd="@drawable/ic_baseline_arrow_drop_down"
+            android:inputType="text" />
+
+        <TextView
+            style="@style/txtStyle"
+            android:id="@+id/tv_health_status_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/health_status_detail"
+            android:visibility="gone"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_health_status_details"
+            android:visibility="gone"
+            style="@style/editTxtStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="start"
+            android:inputType="text"
+            android:minHeight="100dp" />
+
+    <LinearLayout
+        android:id="@+id/disability_container"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="6dp"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginEnd="10dp"
+            android:orientation="vertical">
+            <TextView
+                style="@style/txtStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/disability_type" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/editTxtStyle"
+                android:id="@+id/et_disability_type"
+                android:layout_width="match_parent"
+                android:layout_marginTop="8dp"
+                android:drawableEnd="@drawable/ic_baseline_arrow_drop_down"
+                android:inputType="text"
+                android:focusable="false"/>
+
+            <TextView
+                style="@style/txtStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/disability_size" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/editTxtStyle"
+                android:id="@+id/et_disability_size"
+                android:layout_width="match_parent"
+                android:layout_marginTop="8dp"
+                android:inputType="text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                style="@style/txtStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/disability_place" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/editTxtStyle"
+                android:id="@+id/et_disability_place"
+                android:layout_width="match_parent"
+                android:layout_marginTop="8dp"
+                android:inputType="text" />
+
+            <TextView
+                style="@style/txtStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/disability_reason" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/editTxtStyle"
+                android:id="@+id/et_disability_reason"
+                android:layout_width="match_parent"
+                android:layout_marginTop="8dp"
+                android:inputType="text" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_add_user_health"
+        style="@style/btnStyle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:text="@string/Save" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

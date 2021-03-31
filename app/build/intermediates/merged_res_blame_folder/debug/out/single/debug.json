@@ -1,0 +1,1062 @@
+[
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_training_programs.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_training_programs.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_main.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_circle_round.png.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\mipmap-xxxhdpi\\circle_round.png"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_holland_careers.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_holland_careers.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_month_year_picker_dialog.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\month_year_picker_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_user_languages.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_user_languages.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_educational_status.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_educational_status.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_family.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_family.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_worker_rights_request.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_worker_rights_request.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_group_1075.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_group_1075.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_normal.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\font_cairobold.ttf.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\font\\cairobold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_circle_round.png.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\mipmap-xhdpi\\circle_round.png"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_realty.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_realty.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_holand_major_services.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_holand_major_services.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_circle_foreground.png.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\mipmap-xhdpi\\circle_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_directions.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_directions.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_yes.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_yes.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_laborers_color_full.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_laborers_color_full.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_list_item_state.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\list_item_state.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_insert_worker.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_insert_worker.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_person.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_person.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_health_status.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_health_status.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_done.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_done.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_circle.png.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\mipmap-xxxhdpi\\circle.png"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_calculate_financial_rights.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_calculate_financial_rights.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_view_facility_procedures_inspection.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\card_view_facility_procedures_inspection.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_holland_result.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_holland_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_green_colored_border.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\green_colored_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_add_training_programs.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_add_training_programs.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_instructor.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_instructor.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_location_holder.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_location_holder.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_worker_info.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_worker_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_view_temp_work_item.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\card_view_temp_work_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_bottom_sheet_training_program.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\bottom_sheet_training_program.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_temp_work.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_temp_work.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_row_border.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\row_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\font_cairoblack.ttf.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\font\\cairoblack.ttf"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edit_text_buttom_sheet.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\edit_text_buttom_sheet.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_prev.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_prev.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_add_language.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_add_language.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_add_returning_labor.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_add_returning_labor.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_confirm_start_visit.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\dialog_confirm_start_visit.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_suqare.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_suqare.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_left_border.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\left_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_practical_state.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_practical_state.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_sh_my_dialog.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\sh_my_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_screen.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\splash_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_circle_foreground.png.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\mipmap-xxxhdpi\\circle_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_additional_services.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_additional_services.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_work_status_worker.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_work_status_worker.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_profile_color_full.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_profile_color_full.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_searsh_blue.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_searsh_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_construction_data.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_construction_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_sign_out.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_sign_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_bottom_sheet_eaarch.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\bottom_sheet_eaarch.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_next_page.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_next_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_global.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_global.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_view_holland_result_totally.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\card_view_holland_result_totally.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_view_holland_result.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\card_view_holland_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_searsh_icon_sheet.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\searsh_icon_sheet.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_process.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_process.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_occupational_health_and_safety_card.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\occupational_health_and_safety_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_circle_round.png.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\mipmap-mdpi\\circle_round.png"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\font_cairolight.ttf.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\font\\cairolight.ttf"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_view_family_member_item.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\card_view_family_member_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_returning_labor.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_returning_labor.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_delete.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_family_color_full.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_family_color_full.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_lounge_color_full.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_lounge_color_full.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_license_data.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_license_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_view_home_cards.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\card_view_home_cards.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edit_txt_bg.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\edit_txt_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_store_inspection_result.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_store_inspection_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_edu_cap.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_edu_cap.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_suitcase.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_suitcase.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_card_view_background.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\card_view_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_inspection_visiting_menu.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_inspection_visiting_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_leaving_a_workplace.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_leaving_a_workplace.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_view_owner_item.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\card_view_owner_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_circle_round.png.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\mipmap-hdpi\\circle_round.png"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_practical_status.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_practical_status.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\color_revisit.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\color\\revisit.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_workers_complaint.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_workers_complaint.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_pin.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_pin.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_circle.png.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\mipmap-mdpi\\circle.png"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_view_dream_job_item.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\card_view_dream_job_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sh_shep_dailog.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\sh_shep_dailog.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_move_the_facility.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_move_the_facility.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_view_archive_item.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\card_view_archive_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_circle_round.png.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\mipmap-xxhdpi\\circle_round.png"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_view_holland_check_box.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\card_view_holland_check_box.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_no_wifi.png.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\no_wifi.png"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_list_activited.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\list_activited.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_side_button_shape.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\side_button_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_pharmacy.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_pharmacy.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_view_skill_item.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\card_view_skill_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_toast_icon_text.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\toast_icon_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\menu_insert_worker_menu.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\menu\\insert_worker_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_recommendation.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_recommendation.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_arrow_back.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_major_info.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_major_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_inspection_results.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_inspection_results.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_couple_color_full.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_couple_color_full.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_travel.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_travel.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_social_aid.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_social_aid.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_search_edit_txt_background.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\search_edit_txt_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_car_color_full.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_car_color_full.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_adjustment_report.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_adjustment_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_spinner_bg.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\spinner_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_close_facility.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_close_facility.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_add_training_skills.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_add_training_skills.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\anim_fade_in.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_plane.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_plane.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_circle_foreground.png.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\mipmap-xxhdpi\\circle_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\font_cairoextralight.ttf.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\font\\cairoextralight.ttf"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_training_skills.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_training_skills.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_no_connection.png.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\no_connection.png"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_refresh.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_refresh.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_arrow.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_baseline_arrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_breakdown.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_breakdown.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_view_training_program_item.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\card_view_training_program_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_circle.png.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\mipmap-xhdpi\\circle.png"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_close.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_close.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_colored_border.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\colored_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_circle_foreground.png.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\mipmap-mdpi\\circle_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_background.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\circle_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\font_cairosemibold.ttf.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\font\\cairosemibold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_view_social_aid_item.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\card_view_social_aid_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_inspection_plane_managment.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_inspection_plane_managment.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_view_button.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\card_view_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_view_practical_status.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\card_view_practical_status.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_xmlid_1203_.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_xmlid_1203_.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_inspection_mng.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_inspection_mng.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_loan.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_loan.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_load_state_item.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\load_state_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_partner.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_partner.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_additional_services_first.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_additional_services_first.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_no_connection_layout.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\no_connection_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_insp_visit_out_of_plane.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_insp_visit_out_of_plane.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_layout_labor_rights.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\dialog_layout_labor_rights.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_circle.png.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\mipmap-hdpi\\circle.png"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_view_travel_item.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\card_view_travel_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_add_dependents.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_add_dependents.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_main_drawer.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_calendar.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_button_background.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\circle_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_my_buttom_sheet.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\my_buttom_sheet.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\color_visit_start.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\color\\visit_start.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_legal_entity.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_legal_entity.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_archive.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_archive.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_legal_action.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_legal_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_view_evaluation_item.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\card_view_evaluation_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_dependents.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_dependents.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\font_robotobold.ttf.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\font\\robotobold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_delete_white.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_delete_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_card_view_filled_background.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\card_view_filled_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_buttom_sheet_shape.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\buttom_sheet_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_no_connection_layout.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\no_connection_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_evaluation.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_evaluation.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_inspection_revisit.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_inspection_revisit.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_bottom_sheet_view.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\bottom_sheet_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_holand_test_main.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_holand_test_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_supporting_institute.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_supporting_institute.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_view_language_item.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\card_view_language_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\font_cairoregular.ttf.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\font\\cairoregular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_family_member.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_family_member.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\color_icon_title_color_state.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\color\\icon_title_color_state.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_process_color_full.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_process_color_full.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_holland_test_activities.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_holland_test_activities.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_view_searsh_sh.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\card_view_searsh_sh.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\anim_fade_out.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_complete_download_file.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\dialog_complete_download_file.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_profile.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_dependents_carview_item.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\dependents_carview_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_table_border.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\table_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_add_work_experience.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_add_work_experience.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_couple.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_couple.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_address_and_contact.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_address_and_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_file_complaint_form1.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_file_complaint_form1.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_occupational_safety_and_health.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_occupational_safety_and_health.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_mortarboard.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_mortarboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_work_experience.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_work_experience.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_data_scientist_color_full.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_data_scientist_color_full.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_your_dreams_career.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_your_dreams_career.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_holland_skills_test.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_holland_skills_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_plane_color_full.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_plane_color_full.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_vehicle.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_vehicle.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_worker_major_data.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_worker_major_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_holland_similar_jobs.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_holland_similar_jobs.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_practical_skill.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_practical_skill.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_work_experience_cardview_item.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\work_experience_cardview_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_laborers.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_laborers.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_add_education.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_add_education.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_next.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_view_similar_job.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\card_view_similar_job.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_view_supporting_institute_item.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\card_view_supporting_institute_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_circle_foreground.png.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\mipmap-hdpi\\circle_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_bottomsheet_search.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\item_bottomsheet_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_file_complaint_form2.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_file_complaint_form2.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search_dark.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_search_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_seasrch_view_background.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\seasrch_view_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_add_career.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_add_career.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_keyboard_arrow_down.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_baseline_keyboard_arrow_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_main_construction_data.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_main_construction_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_view_holland_activity.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\card_view_holland_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_new_workplace.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_new_workplace.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_alarm_form.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_alarm_form.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_view_eduction_item.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\card_view_eduction_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sso_login.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\activity_sso_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_undraw_no_data_qbuo.png.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\undraw_no_data_qbuo.png"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\navigation_stepper_navigations.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\navigation\\stepper_navigations.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_career_cardview_item.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\career_cardview_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_view_user_realty.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\card_view_user_realty.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_policy.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_policy.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_side_nav_bar.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_approver_data.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_approver_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_lounge.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_lounge.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_supject_number_alarm_fragment.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\item_supject_number_alarm_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ministry_logo.png.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ministry_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_alert_dialog_cardview.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\alert_dialog_cardview.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_circle.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\mipmap-anydpi-v26\\circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_car.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_car.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_major_services.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_major_services.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_view_partner_item.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\card_view_partner_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_circle_round.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\mipmap-anydpi-v26\\circle_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_main.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_floating_list_item.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\floating_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_view_vehicle_item.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\card_view_vehicle_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_safety.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_safety.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_social_care.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_social_care.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_visiting_services.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_visiting_services.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_edit_defrent_coloer.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_edit_defrent_coloer.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_circle.png.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\mipmap-xxhdpi\\circle.png"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_main_logo.png.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\main_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_loan_color_full.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_loan_color_full.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_circle_foreground.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\circle_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_calculate_labor_rights.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_calculate_labor_rights.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_add_practical_status.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_add_practical_status.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_careers.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\fragment_careers.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_edit.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_view_returning_labor_item.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\layout\\card_view_returning_labor_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_arrow_drop_down.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_drop_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_data_scientist.xml.flat",
+        "source": "C:\\Users\\al-khatib\\Downloads\\Ministry\\app\\src\\main\\res\\drawable\\ic_data_scientist.xml"
+    }
+]

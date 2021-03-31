@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/last_job_work_in" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/editTxtStyle"
+            android:id="@+id/et_last_job"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:focusable="false"
+            android:drawableEnd="@drawable/ic_search"
+            android:inputType="text" />
+
+
+
+        <LinearLayout
+            android:id="@+id/disability_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="6dp"
+            android:layout_weight="1"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginEnd="10dp"
+                android:orientation="vertical">
+                <TextView
+                    style="@style/txtStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/skill_level" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    style="@style/editTxtStyle"
+                    android:id="@+id/et_skill_level"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="8dp"
+                    android:drawableEnd="@drawable/ic_baseline_arrow_drop_down"
+                    android:inputType="text"
+                    android:focusable="false"/>
+
+                <TextView
+                    style="@style/txtStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/work_beginning_date" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    style="@style/editTxtStyle"
+                    android:id="@+id/et_start_work_date"
+                    android:layout_width="match_parent"
+                    android:drawableEnd="@drawable/ic_calendar"
+                    android:focusable="false"
+                    android:layout_marginTop="8dp"
+                    android:inputType="text" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/txtStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/returned_country" />
+
+                <TextView
+                    android:id="@+id/et_returned_country"
+                    style="@style/editTxtStyle"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="8dp"
+                    android:drawableEnd="@drawable/ic_baseline_arrow_drop_down"
+                    />
+
+                <TextView
+                    style="@style/txtStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/work_ending_date" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_work_ending_date"
+                    style="@style/editTxtStyle"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="8dp"
+                    android:drawableEnd="@drawable/ic_calendar"
+                    android:focusable="false"
+                    android:inputType="text" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            style="@style/txtStyle"
+            android:id="@+id/tv_notes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/notes"
+            />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_notes"
+            style="@style/editTxtStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="start"
+            android:inputType="text"
+            android:minHeight="100dp" />
+
+
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_add_returning_labor"
+        style="@style/btnStyle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:text="@string/Save" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

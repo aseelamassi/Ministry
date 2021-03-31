@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                style="@style/txtStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/course_type" />
+
+            <TextView
+                android:id="@+id/tv_course_type"
+                style="@style/editTxtStyle"
+                android:layout_width="match_parent"
+                android:drawableEnd="@drawable/ic_baseline_arrow_drop_down" />
+
+            <TextView
+                style="@style/txtStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/course" />
+
+            <TextView
+                android:id="@+id/tv_course"
+                style="@style/editTxtStyle"
+                android:layout_width="match_parent"
+                android:drawableEnd="@drawable/ic_baseline_arrow_drop_down" />
+
+            <TextView
+                style="@style/txtStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/priority_specification" />
+
+            <EditText
+                android:id="@+id/tv_priority"
+                style="@style/editTxtStyle"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                />
+
+            <TextView
+                android:id="@+id/tv_job_label"
+                style="@style/txtStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:visibility="gone"
+                android:text="@string/job" />
+
+            <TextView
+                android:id="@+id/tv_job"
+                style="@style/editTxtStyle"
+                android:focusable="false"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:drawableEnd="@drawable/ic_baseline_arrow_drop_down" />
+        </LinearLayout>
+
+    </ScrollView>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_add_training_skills"
+        style="@style/btnStyle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/Save" />
+
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

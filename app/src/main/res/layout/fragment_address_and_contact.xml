@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_save_address_contacts"
+        style="@style/btnStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@string/Save"
+        android:layout_margin="10dp"
+        />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:orientation="vertical"
+            android:textDirection="rtl"
+            android:paddingBottom="70dp"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            tools:context=".view.userfile.UserFileFragment">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:text="@string/state" />
+
+                    <TextView
+                        android:id="@+id/et_state_address_contact"
+                        style="@style/editTxtStyle"
+                        android:layout_width="match_parent"
+                        android:enabled="false"
+                        android:backgroundTint="@color/dark_gray"
+                        />
+
+                    <TextView
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:text="@string/district" />
+
+                    <TextView
+                        android:id="@+id/et_district_address_contact"
+                        style="@style/editTxtStyle"
+                        android:layout_width="match_parent"
+                        android:inputType="textPersonName"
+                        android:backgroundTint="@color/dark_gray"
+
+                        android:enabled="false"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:text="@string/city" />
+
+                    <TextView
+                        android:id="@+id/et_city_address_contact"
+                        style="@style/editTxtStyle"
+                        android:layout_width="match_parent"
+                        android:inputType="textPersonName"
+                        android:backgroundTint="@color/dark_gray"
+                        android:enabled="false"/>
+
+                    <TextView
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:text="@string/street" />
+
+                    <TextView
+                        android:id="@+id/et_street_address_contact"
+                        style="@style/editTxtStyle"
+                        android:layout_width="match_parent"
+                        android:enabled="false"
+                        android:backgroundTint="@color/dark_gray"
+
+                        android:inputType="textPersonName" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/txtStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/nearset_address" />
+
+            <TextView
+                android:id="@+id/et_nearest_place_address_contact"
+                style="@style/editTxtStyle"
+                android:layout_width="match_parent"
+                android:layout_marginTop="8dp"
+                android:text="-"
+                android:backgroundTint="@color/dark_gray"
+                android:enabled="false"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:text="@string/building" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_building_address_contact"
+                        style="@style/editTxtStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:enabled="true"
+                        android:text="-"
+                        android:inputType="textPersonName" />
+
+                    <TextView
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:text="@string/phone_number" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_mobile_address_contact"
+                        style="@style/editTxtStyle"
+                        android:layout_width="match_parent"
+                        android:inputType="textPersonName"
+                        android:backgroundTint="@color/dark_gray"
+
+                        android:enabled="false"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:text="@string/Telephone" />
+
+                    <TextView
+                        android:id="@+id/et_phone_address_contact"
+                        style="@style/editTxtStyle"
+                        android:layout_width="match_parent"
+                        android:backgroundTint="@color/dark_gray"
+
+                        android:enabled="false"/>
+
+                    <TextView
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:text="@string/phone_number_first_grade" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_first_grade_mobile_address_contact"
+                        style="@style/editTxtStyle"
+                        android:layout_width="match_parent"
+                        android:text="-"
+                        android:maxLength="10"
+                        android:inputType="phone"
+                        android:enabled="true"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/txtStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/email" />
+
+            <TextView
+                android:id="@+id/et_email_address_contact"
+                style="@style/editTxtStyle"
+                android:layout_width="match_parent"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/dark_gray"
+
+                android:enabled="false"/>
+
+            <TextView
+                style="@style/txtStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/facebook" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_facebook_address_contact"
+                style="@style/editTxtStyle"
+                android:layout_width="match_parent"
+                android:layout_marginTop="8dp"
+                android:inputType="text"
+                android:text="-"
+                android:enabled="true"/>
+
+            <TextView
+                style="@style/txtStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/address_details" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_address_details_address_contact"
+                style="@style/editTxtStyle"
+                android:layout_width="match_parent"
+                android:layout_marginTop="8dp"
+                android:inputType="text"
+                android:text="-"
+                android:maxLength="350"
+
+                android:enabled="true"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+</FrameLayout>

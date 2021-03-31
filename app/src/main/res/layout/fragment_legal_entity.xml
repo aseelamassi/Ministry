@@ -1,0 +1,597 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contener_move_facilty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_view_background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:context=".featuers.home.FacilityServices.MoveTheFacility.view.MoveTheFacilityFragment">
+
+
+            <TextView
+                android:id="@+id/tv_construction_type"
+                style="@style/txtStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/construction_type"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/ed_tv_construction_type"
+                style="@style/editTxtStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_baseline_arrow_drop_down"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_official_business_name" />
+
+
+            <TextView
+                android:id="@+id/tv_legal_entity"
+                style="@style/txtStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/legal_entity"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/ed_legal_entity"
+                style="@style/editTxtStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_baseline_arrow_drop_down"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_legal_entity" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_owner_sn"
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:text="@string/owner_sn" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginEnd="8dp"
+                        android:background="@drawable/edit_txt_bg"
+                        android:weightSum="6"
+                        >
+
+
+                        <EditText
+                            android:id="@+id/et_sn"
+                            style="@style/editTxtStyle"
+                            android:layout_width="0dp"
+                            android:maxLength="9"
+                            android:layout_weight="5"
+                            android:inputType="number" />
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/btn_get_data"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:src="@drawable/ic_search"
+                            android:padding="8dp"
+                            android:layout_height="38dp"
+                            android:background="@drawable/edit_txt_bg"
+                            android:backgroundTint="@color/colorPrimary"
+                            android:layout_width="0dp" />
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/tv_start_work_date"
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:text="@string/owner_start_work_date" />
+
+                    <TextView
+                        android:id="@+id/ed_start_work_date"
+                        style="@style/editTxtStyle"
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:drawableEnd="@drawable/ic_calendar"
+
+                        />
+
+
+                    <TextView
+                        android:id="@+id/tv_manager_sn"
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:text="@string/manager_sn"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/ed_nu_facility" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginEnd="8dp"
+                        android:background="@drawable/edit_txt_bg"
+                        android:weightSum="6"
+                        >
+
+                        <EditText
+                            android:id="@+id/ed_manager_sn"
+                            style="@style/editTxtStyle"
+                            android:layout_width="0dp"
+                            android:maxLength="9"
+                            android:layout_weight="5"
+                            android:inputType="number" />
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/btn_get_manager_data"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:src="@drawable/ic_search"
+                            android:padding="8dp"
+                            android:layout_height="38dp"
+                            android:background="@drawable/edit_txt_bg"
+                            android:backgroundTint="@color/colorPrimary"
+                            android:layout_width="0dp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tv_owner_name"
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:text="@string/owner_name" />
+
+                    <TextView
+                        android:id="@+id/ed_owner_name"
+                        style="@style/editTxtStyle"
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+
+                        />
+
+                    <TextView
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btn_ada_owner"
+                        style="@style/btnStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/add_owner" />
+
+                    <TextView
+                        android:id="@+id/tv_manager_name"
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:text="@string/manager_name" />
+
+                    <TextView
+                        android:id="@+id/ed_manager_name"
+                        style="@style/editTxtStyle"
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tv_construction_ownership"
+                style="@style/txtStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/construction_ownership"
+                 />
+
+            <TextView
+                android:id="@+id/ed_construction_ownership"
+                style="@style/editTxtStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_main_active"
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:text="@string/main_active" />
+
+                    <TextView
+                        android:id="@+id/ed_main_active"
+                        style="@style/editTxtStyle"
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_active_description"
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:text="@string/active_description" />
+
+                    <TextView
+                        android:id="@+id/ed_active_description"
+                        style="@style/editTxtStyle"
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_registration_label"
+                style="@style/txtStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/is_there_any_secondary_active"
+                android:textColor="@color/black" />
+
+
+            <RadioGroup
+                android:id="@+id/rg_secondary_active"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+
+            </RadioGroup>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_secondary_active"
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:text="@string/secondary_active" />
+
+                    <TextView
+                        android:id="@+id/ed_secondary_active"
+                        style="@style/editTxtStyle"
+                        android:layout_width="match_parent"
+                        android:enabled="false"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+
+                        />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btn_add_secondary_sector"
+                        style="@style/btnStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:layout_weight="1"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/add_secondary_sector" />
+
+
+
+
+
+
+                    <TextView
+                        android:id="@+id/tv_construction_permanence"
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:text="@string/construction_permanence" />
+
+                    <TextView
+                        android:id="@+id/ed_construction_permanence"
+                        style="@style/editTxtStyle"
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:drawableEnd="@drawable/ic_baseline_arrow_drop_down" />
+
+
+                    <TextView
+                        android:id="@+id/tv_worker_number_when_establishing"
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:text="@string/worker_number_when_establishing" />
+
+                    <EditText
+                        android:id="@+id/ed_worker_number_when_establishing"
+                        style="@style/editTxtStyle"
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/tv_start_date"
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:visibility="gone"
+                        android:text="@string/start_date" />
+
+                    <TextView
+                        android:id="@+id/ed_start_date"
+                        style="@style/editTxtStyle"
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:visibility="gone"
+                        android:drawableEnd="@drawable/ic_calendar"
+
+                        />
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btn_save"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        style="@style/btnStyle"
+                        android:text="@string/save"
+                        android:layout_marginEnd="8dp"
+                        android:padding="10dp"
+                        />
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_secondary_active_description"
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:text="@string/active_description" />
+
+                    <TextView
+                        android:id="@+id/ed_secondary_active_description"
+                        style="@style/editTxtStyle"
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_practicing_year"
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:text="@string/practicing_year" />
+
+                    <EditText
+                        android:id="@+id/ed_practicing_year"
+                        style="@style/editTxtStyle"
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:drawableEnd="@drawable/ic_calendar"
+                        android:inputType="numberDecimal"
+
+                        />
+
+
+                    <TextView
+                        android:id="@+id/tv_worker_number_currently"
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:text="@string/worker_number_currently" />
+
+                    <EditText
+                        android:id="@+id/ed_worker_number_currently"
+                        style="@style/editTxtStyle"
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:inputType="numberDecimal"
+
+                        />
+
+
+                    <TextView
+                        android:id="@+id/tv_end_date"
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:visibility="gone"
+                        android:text="@string/end_date" />
+
+                    <TextView
+                        android:id="@+id/ed_end_date"
+                        style="@style/editTxtStyle"
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:visibility="gone"
+                        android:drawableEnd="@drawable/ic_calendar"
+
+                        />
+
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btn_save_with_approve"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        style="@style/btnStyle"
+                        android:text="@string/save_with_approve"
+                        app:backgroundTint="@color/green"
+                        android:layout_marginEnd="8dp"
+
+                        android:padding="10dp"
+                       />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <TextView
+                style="@style/txtStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/owners"
+                android:textColor="@color/black" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_owner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                style="@style/txtStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/secondary_active"
+                android:textColor="@color/black" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_secondary_active"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+
+            <TextView
+                android:id="@+id/tv_owner_work_name"
+                style="@style/txtStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/id"
+                app:layout_constraintStart_toStartOf="@id/ed_nu_facility"
+                app:layout_constraintTop_toBottomOf="@id/ed_nu_facility" />
+
+
+            <TextView
+                android:id="@+id/ed_id"
+                style="@style/editTxtStyle"
+                android:layout_width="match_parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_owner_work_name" />
+
+
+            <TextView
+                android:id="@+id/tv_labor_name"
+                style="@style/txtStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/labor_name" />
+
+            <TextView
+                android:id="@+id/ed_worker_name"
+                style="@style/editTxtStyle"
+                android:layout_width="match_parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_type_work" />
+
+
+            <LinearLayout
+                android:id="@+id/my_contener"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="@id/ed_id"
+                app:layout_constraintStart_toStartOf="@id/ed_id"
+                app:layout_constraintTop_toBottomOf="@id/ed_id">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_governorate"
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:text="@string/phone"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/ed_nu_facility" />
+
+                    <EditText
+                        android:id="@+id/ed_phone"
+                        style="@style/editTxtStyle"
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+
+                        android:maxLength="10"
+                        android:inputType="number" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tv_residence_place"
+                        style="@style/txtStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:text="@string/residencePlace" />
+
+
+                    <TextView
+                        android:id="@+id/ed_residence_place"
+                        style="@style/editTxtStyle"
+                        android:layout_width="match_parent"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_contract"
+                    style="@style/txtStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/contract"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tv_have_contract"
+                    style="@style/editTxtStyle"
+                    android:layout_width="0dp"
+
+                    android:drawableEnd="@drawable/ic_baseline_arrow_drop_down"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/tv_work_nature"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_contract" />
+
+                <TextView
+                    android:id="@+id/tv_type_of_contract"
+                    style="@style/txtStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/type_of_contract"
+                    app:layout_constraintStart_toStartOf="@+id/tv_work_nature"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tv_work_nature"
+                    style="@style/editTxtStyle"
+                    android:layout_width="0dp"
+                    android:drawableEnd="@drawable/ic_baseline_arrow_drop_down"
+
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/tv_have_contract"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_type_of_contract" />
+
+
+                <TextView
+                    android:id="@+id/tv_work_type"
+                    style="@style/txtStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/work_type"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_have_contract" />
+
+                <TextView
+                    android:id="@+id/tv_job"
+                    style="@style/editTxtStyle"
+                    android:layout_width="0dp"
+                    android:drawableEnd="@drawable/ic_baseline_arrow_drop_down"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_work_type" />
+
+
+                <TextView
+                    android:id="@+id/tv_pay_type"
+                    style="@style/txtStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/pay_type"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_job" />
+
+                <TextView
+                    android:id="@+id/tv_hours_type"
+                    style="@style/editTxtStyle"
+                    android:layout_width="0dp"
+
+                    android:layout_marginEnd="8dp"
+
+                    android:drawableEnd="@drawable/ic_baseline_arrow_drop_down"
+                    app:layout_constraintEnd_toStartOf="@+id/tv_work_nature"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_pay_type" />
+
+
+                <TextView
+                    android:id="@+id/tv_date_ending_work"
+                    style="@style/txtStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/date_ending_work"
+                    app:layout_constraintStart_toStartOf="@+id/et_end_date"
+                    app:layout_constraintTop_toTopOf="@+id/tv_date_beginning_work" />
+
+                <TextView
+                    android:id="@+id/et_end_date"
+                    style="@style/editTxtStyle"
+                    android:layout_width="0dp"
+                    android:layout_marginStart="8dp"
+                    android:drawableEnd="@drawable/ic_calendar"
+                    android:focusable="false"
+                    app:layout_constraintBottom_toBottomOf="@+id/et_start_date"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/et_start_date"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_date_beginning_work" />
+
+
+
+
+
+                <TextView
+                    android:id="@+id/tv_date_beginning_work"
+                    style="@style/txtStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/date_beginning_work"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_hours_type" />
+
+                <TextView
+                    android:id="@+id/et_start_date"
+                    style="@style/editTxtStyle"
+                    android:layout_width="0dp"
+                    android:layout_marginEnd="8dp"
+                    android:drawableEnd="@drawable/ic_calendar"
+
+                    android:focusable="false"
+                    app:layout_constraintEnd_toStartOf="@+id/et_end_date"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_date_beginning_work" />
+
+
+
+
+                <TextView
+                    android:id="@+id/tv_currency_type_label"
+                    style="@style/txtStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/currency_type"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/et_start_date" />
+
+                <TextView
+
+                    android:id="@+id/tv_currency_type"
+                    style="@style/editTxtStyle"
+                    android:layout_width="0dp"
+
+                    android:layout_marginStart="8dp"
+
+                    android:drawableEnd="@drawable/ic_baseline_arrow_drop_down"
+                    app:layout_constraintEnd_toStartOf="@+id/et_end_date"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_currency_type_label"
+                     />
+
+
+
+                <TextView
+                    android:id="@+id/tv_real_work_duration"
+                    style="@style/txtStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/real_work_duration"
+                    app:layout_constraintStart_toStartOf="@+id/et_end_date"
+                    app:layout_constraintTop_toTopOf="@+id/tv_currency_type_label" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_real_work_duration"
+                    style="@style/editTxtStyle"
+                    android:layout_width="0dp"
+                    android:layout_marginStart="8dp"
+                    android:inputType="number"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/tv_currency_type"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_real_work_duration" />
+
+
+
+                <TextView
+                    android:id="@+id/tv_yearly_vacation_duration"
+                    style="@style/txtStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/yearly_vacation_duration"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/et_real_work_duration" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_yearly_vacation_duration"
+                    style="@style/editTxtStyle"
+                    android:layout_width="0dp"
+                    android:layout_marginEnd="8dp"
+                    android:inputType="number"
+                    app:layout_constraintEnd_toStartOf="@+id/et_late_payments"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_yearly_vacation_duration" />
+
+                <TextView
+                    android:id="@+id/tv_late_payments"
+                    style="@style/txtStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/late_payments"
+                    app:layout_constraintStart_toStartOf="@+id/et_late_payments"
+                    app:layout_constraintTop_toTopOf="@+id/tv_yearly_vacation_duration" />
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_late_payments"
+                    style="@style/editTxtStyle"
+                    android:layout_width="0dp"
+                    android:layout_marginStart="8dp"
+                    android:inputType="number"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/et_yearly_vacation_duration"
+                    app:layout_constraintTop_toTopOf="@+id/et_yearly_vacation_duration" />
+
+                <TextView
+                    android:id="@+id/tv_last_pay"
+                    style="@style/txtStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/last_pay"
+                    app:layout_constraintStart_toEndOf="@+id/tv_hours_type"
+                    app:layout_constraintTop_toBottomOf="@id/tv_job"/>
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_last_pay"
+                    style="@style/editTxtStyle"
+                    android:layout_width="0dp"
+                    android:layout_marginStart="8dp"
+                    android:inputType="number"
+                    app:layout_constraintStart_toEndOf="@+id/tv_hours_type"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_last_pay" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/tv_duration_pay"
+                style="@style/txtStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/duration_pay"
+                />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_duration_pay"
+                style="@style/editTxtStyle"
+                android:layout_width="match_parent"
+                android:layout_marginStart="8dp"
+                android:inputType="number"
+          />
+
+            <TextView
+                android:id="@+id/tv_legal_period_ending_work"
+                style="@style/txtStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/legal_period_ending_work" />
+
+            <TextView
+                android:id="@+id/tv_dead_line"
+                style="@style/editTxtStyle"
+                android:drawableEnd="@drawable/ic_baseline_arrow_drop_down"
+                android:layout_width="match_parent" />
+
+
+            <TextView
+                android:id="@+id/tv_period_not_observed"
+                style="@style/txtStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/period_not_observed" />
+
+
+            <EditText
+                android:id="@+id/et_period_not_observed"
+                style="@style/editTxtStyle"
+                android:layout_width="match_parent"
+                android:enabled="false"
+                android:inputType="number" />
+
+
+            <TextView
+                android:id="@+id/tv_tyep_end_worke"
+                style="@style/txtStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/ending_work_way" />
+
+
+            <RadioGroup
+                android:id="@+id/radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_tyep_end_worke">
+
+                <RadioButton
+                    android:id="@+id/radio_button_1"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/radioButton1_arbitrary_fired" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_2"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/radioButton1_legal_fired" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/radioButton2_resignation" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/leving" />
+
+
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/tv_work_duration"
+                style="@style/txtStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/cermonies" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_cermonies"
+                style="@style/editTxtStyle"
+                android:layout_width="match_parent"
+                android:layout_marginEnd="8dp"
+                android:inputType="number" />
+
+
+            <TextView
+                android:id="@+id/tv_facility"
+                style="@style/txtStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/facility_name" />
+
+            <TextView
+                android:id="@+id/ed_nu_facility"
+                style="@style/editTxtStyle"
+                android:layout_width="match_parent"
+                android:drawableEnd="@drawable/ic_baseline_arrow_drop_down"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_facility" />
+
+
+            <TextView
+                android:id="@+id/tv_reason_end_orke"
+                style="@style/txtStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/reasons"
+                app:layout_constraintStart_toStartOf="@id/ed_nu_facility"
+                app:layout_constraintTop_toBottomOf="@id/radio_group" />
+
+            <EditText
+                android:id="@+id/ed_reason_end_work"
+                style="@style/editTxtStyle"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_reason_end_orke" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_complaint_next"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/cairobold"
+                android:text="@string/Save_complaint"
+                android:textSize="16sp"
+                app:iconGravity="textEnd"
+
+                app:layout_constraintVertical_bias="0.9" />
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.50" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

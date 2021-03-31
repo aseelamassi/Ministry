@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.sh.wm.ministry.featuers.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <!-- ***************** USER FILES ***************** -->
+
+    <!--major services-->
+    <fragment
+        android:id="@+id/nav_major_services"
+        android:name="com.sh.wm.ministry.featuers.userfile.majorservices.view.MajorServicesFragment"
+        android:label="@string/major_services"
+        tools:layout="@layout/fragment_major_services" />
+    <!-- ************ -->
+
+    <!--qayed archives -->
+    <fragment
+        android:id="@+id/nav_qayed_archive"
+        android:name="com.sh.wm.ministry.featuers.home.homeFiles.QayedArchive.view.ArchiveFragment"
+        android:label="@string/archive_title"
+        tools:layout="@layout/fragment_archive" />
+    <!-- ************ -->
+
+
+
+
+
+    <fragment
+        android:id="@+id/nav_address_contact"
+        android:name="com.sh.wm.ministry.featuers.userfile.addressAndContact.view.AddressAndContactFragment"
+        android:label="@string/address_contact"
+        tools:layout="@layout/fragment_address_and_contact" />
+
+    <fragment
+        android:id="@+id/nav_healh"
+        android:name="com.sh.wm.ministry.featuers.userfile.health.view.HealhFragment"
+        android:label="@string/health_status"
+        tools:layout="@layout/fragment_health_status" />
+
+    <fragment
+        android:id="@+id/nav_dependents"
+        android:name="com.sh.wm.ministry.featuers.userfile.dependents.view.DependentsFragment"
+        android:label="@string/dependents"
+        tools:layout="@layout/fragment_dependents" />
+    <fragment
+        android:id="@+id/nav_add_dependents"
+        android:name="com.sh.wm.ministry.featuers.userfile.dependents.view.AddDependentsFragment"
+        android:label="@string/add_dependents"
+        tools:layout="@layout/fragment_add_dependents" />
+    <fragment
+        android:id="@+id/nav_educational_status"
+        android:name="com.sh.wm.ministry.featuers.userfile.educationalstatus.view.EducationalStatusFragment"
+        android:label="@string/educational_status"
+        tools:layout="@layout/fragment_educational_status" />
+
+    <fragment
+        android:id="@+id/nav_add_education"
+        android:name="com.sh.wm.ministry.featuers.userfile.educationalstatus.view.AddEducationFragment"
+        android:label="@string/add_eductionalstatus"
+        tools:layout="@layout/fragment_add_education" />
+
+    <fragment
+        android:id="@+id/nav_training_programs"
+        android:name="com.sh.wm.ministry.featuers.userfile.trainingprograms.view.TrainingProgramsFragment"
+        android:label="@string/training_programs"
+        tools:layout="@layout/fragment_add_training_programs" />
+
+
+    <fragment
+        android:id="@+id/nav_add_training_program"
+        android:name="com.sh.wm.ministry.featuers.userfile.trainingprograms.view.AddTrainingProgramsFragment"
+        android:label="@string/add_training_programs"
+        tools:layout="@layout/fragment_add_training_programs" />
+
+    <fragment
+        android:id="@+id/nav_worker_complaint_form1"
+        android:name="com.sh.wm.ministry.featuers.home.homeFiles.workercompilation.view.WorkerCompilationFormOneFragment"
+        android:label="@string/worker_complaint"
+        tools:layout="@layout/fragment_file_complaint_form1" />
+
+
+
+    <!-- career -->
+    <fragment
+        android:id="@+id/nav_career"
+        android:name="com.sh.wm.ministry.featuers.userfile.career.view.CareersFragment"
+        android:label="@string/careers"
+        tools:layout="@layout/fragment_careers" />
+    <!-- ************ -->
+
+
+
+
+    <!-- work experience -->
+    <fragment
+        android:id="@+id/nav_work_experience"
+        android:name="com.sh.wm.ministry.featuers.userfile.workexperience.view.UserWorkExperiencesFragment"
+        android:label="@string/practical_experiences" />
+
+    <fragment
+        android:id="@+id/nav_add_work_experience"
+        android:name="com.sh.wm.ministry.featuers.userfile.workexperience.view.AddWorkExperienceFragment"
+        android:label="@string/add_experience"
+        tools:layout="@layout/fragment_add_work_experience" />
+
+
+    <fragment
+        android:id="@+id/nav_update_career"
+        android:name="com.sh.wm.ministry.featuers.userfile.career.view.UpdateCareerFragment"
+        android:label="@string/add_career"
+        tools:layout="@layout/fragment_add_career" />
+    <!-- ************ -->
+
+    <!-- languages -->
+    <fragment
+        android:id="@+id/nav_languages"
+        android:name="com.sh.wm.ministry.featuers.userfile.languages.view.UserLanguagesFragment"
+        android:label="@string/language"
+        tools:layout="@layout/fragment_user_languages" />
+
+    <fragment
+        android:id="@+id/nav_add_language"
+        android:name="com.sh.wm.ministry.featuers.userfile.languages.view.AddLanguageFragment"
+        android:label="@string/add_language"
+        tools:layout="@layout/fragment_add_language" />
+    <!-- ************ -->
+
+    <!-- practical status-->
+    <fragment
+        android:id="@+id/nav_practical_status"
+        android:name="com.sh.wm.ministry.featuers.userfile.practicalstatus.view.PracticalStatusFragment"
+        android:label="@string/practical_status"
+        tools:layout="@layout/fragment_practical_status"/>
+
+    <fragment
+        android:id="@+id/nav_add_practical_status"
+        android:name="com.sh.wm.ministry.featuers.userfile.practicalstatus.view.AddPracticalStatusFragment"
+        android:label="@string/add_practical_status"
+        tools:layout="@layout/fragment_add_practical_status" />
+    <!-- ************ -->
+
+    <!-- training skills-->
+    <fragment
+        android:id="@+id/trainingSkillsFragment"
+        android:name="com.sh.wm.ministry.featuers.userfile.trainingskills.view.TrainingSkillsFragment"
+        android:label="@string/training_skills"
+        tools:layout="@layout/fragment_training_skills" />
+
+    <fragment
+        android:id="@+id/addTrainingSkillsFragment"
+        android:name="com.sh.wm.ministry.featuers.userfile.trainingskills.view.AddTrainingSkillsFragment"
+        android:label="@string/add_training_skills"
+        tools:layout="@layout/fragment_add_training_skills" />
+    <!-- ************ -->
+
+    <!-- travel-->
+    <fragment
+        android:id="@+id/travelFragment"
+        android:name="com.sh.wm.ministry.featuers.userfile.travel.view.TravelFragment"
+        android:label="@string/travel"
+        tools:layout="@layout/fragment_travel" />
+    <!-- ************ -->
+
+
+    <!-- social aid-->
+    <fragment
+        android:id="@+id/social_aid"
+        android:name="com.sh.wm.ministry.featuers.userfile.socialAid.view.SocialAidFragment"
+        android:label="@string/social_aid"
+        tools:layout="@layout/fragment_social_aid" />
+    <!-- ************ -->
+    <!-- partner-->
+    <fragment
+        android:id="@+id/partnerFragment"
+        android:name="com.sh.wm.ministry.featuers.userfile.partner.view.PartnerFragment"
+        android:label="@string/partner"
+        tools:layout="@layout/fragment_partner" />
+    <!-- ************ -->
+    <!-- family member-->
+    <fragment
+        android:id="@+id/familyMemberFragment"
+        android:name="com.sh.wm.ministry.featuers.userfile.familyMember.view.FamilyMemberFragment"
+        android:label="@string/family_member"
+        tools:layout="@layout/fragment_family_member" />
+    <!-- ************ -->
+
+    <!-- returning labor-->
+    <fragment
+        android:id="@+id/returning_labor"
+        android:name="com.sh.wm.ministry.featuers.userfile.returningLabor.view.ReturningLaborFragment"
+        android:label="@string/returning_labor"
+        tools:layout="@layout/fragment_returning_labor" />
+    <!-- ************ -->
+
+    <fragment
+        android:id="@+id/add_returning_labor"
+        android:name="com.sh.wm.ministry.featuers.userfile.returningLabor.view.AddReturningLaborFragment"
+        android:label="@string/add_returning_labor"
+        tools:layout="@layout/fragment_add_returning_labor" />
+    <!-- ************ -->
+
+    <!-- vehicle-->
+    <fragment
+        android:id="@+id/vehicle"
+        android:name="com.sh.wm.ministry.featuers.userfile.vechiels.view.VehicleFragment"
+        android:label="@string/vehicle"
+        tools:layout="@layout/fragment_vehicle" />
+    <!-- ************ -->
+
+
+    <!-- realty-->
+    <fragment
+        android:id="@+id/realty"
+        android:name="com.sh.wm.ministry.featuers.userfile.userRealty.view.RealtyFragment"
+        android:label="@string/realty"
+        tools:layout="@layout/fragment_realty" />
+    <!-- ************ -->
+
+    <fragment
+        android:id="@+id/supporting_institute"
+        android:name="com.sh.wm.ministry.featuers.userfile.incubatorsAndInstitueBenefit.view.SupportingInstituteFragment"
+        android:label="@string/supporting_institute"
+        tools:layout="@layout/fragment_supporting_institute" />
+    <!-- ************ -->
+
+    <fragment
+        android:id="@+id/temp_work"
+        android:name="com.sh.wm.ministry.featuers.userfile.workProgramBenefit.view.TempWorkFragment"
+        android:label="@string/temp_work"
+        tools:layout="@layout/fragment_temp_work" />
+    <!-- ************ -->
+
+    <!-- ***************** END OF USER FILES ***************** -->
+
+    <fragment
+        android:id="@+id/nav_move_facility"
+        android:name="com.sh.wm.ministry.featuers.home.homeFiles.movefacility.view.MoveTheFacilityFragment"
+        android:label="@string/move_facility"
+        tools:layout="@layout/fragment_move_the_facility" />
+
+
+    <fragment
+        android:id="@+id/nav_right_calculation"
+        android:name="com.sh.wm.ministry.featuers.home.homeFiles.workerRights.view.WorkerRightsRequestFragment"
+        android:label="@string/request_calculation_right"
+        tools:layout="@layout/fragment_worker_rights_request" />
+
+
+    <fragment
+        android:id="@+id/nav_new_work_place"
+        android:name="com.sh.wm.ministry.featuers.home.homeFiles.newWorkPlace.view.NewWorkplaceFragment"
+        android:label="@string/report_at_new_work_place"
+        tools:layout="@layout/fragment_new_workplace" />
+
+    <fragment
+        android:id="@+id/nav_leaving_work_place"
+        android:name="com.sh.wm.ministry.featuers.home.homeFiles.LeavingWorkplace.view.LeavingAWorkplaceFragment"
+        android:label="@string/report_left_work_place"
+        tools:layout="@layout/fragment_leaving_a_workplace" />
+
+    <fragment
+        android:id="@+id/nav_alarm_form"
+        android:name="com.sh.wm.ministry.featuers.home.homeFiles.alarmForm.view.AlarmFormFragment"
+        android:label="@string/alarm_form"
+        tools:layout="@layout/fragment_alarm_form" />
+
+
+    <fragment
+        android:id="@+id/nav_legal_action"
+        android:name="com.sh.wm.ministry.featuers.home.homeFiles.legalAction.view.LegalActionFragment"
+        android:label="@string/legal_action"
+        tools:layout="@layout/fragment_legal_action" />
+
+    <fragment
+        android:id="@+id/nav_close_facility"
+        android:name="com.sh.wm.ministry.featuers.home.homeFiles.closeFacility.view.CloseFacilityFragment"
+        android:label="@string/close_facility"
+        tools:layout="@layout/fragment_close_facility" />
+
+    <fragment
+        android:id="@+id/nav_adjustment_report"
+        android:name="com.sh.wm.ministry.featuers.home.homeFiles.adjustmentReport.view.AdjustmentReportFragment"
+        android:label="@string/adjustment_report"
+        tools:layout="@layout/fragment_adjustment_report" />
+
+
+    <fragment
+        android:id="@+id/nav_inspection"
+        android:name="com.sh.wm.ministry.featuers.home.homeFiles.inspection.view.InspectionMngFragment"
+        android:label="@string/inspection_mng_btn"
+        tools:layout="@layout/fragment_inspection_mng" />
+
+
+
+
+    <fragment
+        android:id="@+id/nav_store_inspection_result"
+        android:name="com.sh.wm.ministry.featuers.home.homeFiles.inspection.view.storeInspectionResult.StoreInspectionResultFragment"
+        android:label="@string/store_inspection_result"
+        tools:layout="@layout/fragment_store_inspection_result" />
+
+
+    <fragment
+        android:id="@+id/nav_recommendation"
+        android:name="com.sh.wm.ministry.featuers.home.homeFiles.inspection.view.recommendation.RecommendationFragment"
+        android:label="@string/recommendation"
+        tools:layout="@layout/fragment_recommendation" />
+
+    <fragment
+        android:id="@+id/nav_revisit"
+        android:name="com.sh.wm.ministry.featuers.home.homeFiles.inspection.view.revisit.InspectionRevisitFragment"
+        android:label="@string/re_visit"
+        tools:layout="@layout/fragment_inspection_revisit" />
+
+    <fragment
+        android:id="@+id/nav_additional_services"
+        android:name="com.sh.wm.ministry.featuers.home.homeFiles.inspection.view.additionalServices.AdditionalServicesFragment"
+        android:label="@string/additional_services"
+        tools:layout="@layout/fragment_additional_services" />
+
+    <fragment
+        android:id="@+id/nav_first_additional_services"
+        android:name="com.sh.wm.ministry.featuers.home.homeFiles.inspection.view.additionalServices.AdditionalServicesFirstFragment"
+        android:label="@string/additional_services"
+        tools:layout="@layout/fragment_additional_services_first" />
+
+
+    <fragment
+        android:id="@+id/nav_occupational_safety_and_health"
+        android:name="com.sh.wm.ministry.featuers.home.homeFiles.inspection.view.additionalServices.occupationalSafetyAndHealth.OccupationalSafetyAndHealthFragment"
+        android:label="@string/occupational_safety_and_health"
+        tools:layout="@layout/fragment_occupational_safety_and_health" />
+
+    <fragment
+        android:id="@+id/nav_insert_work"
+        android:name="com.sh.wm.ministry.featuers.home.homeFiles.inspection.view.additionalServices.insertWorker.InsertWorkerFragment"
+        android:label="@string/insert_worker"
+        tools:layout="@layout/fragment_insert_worker" />
+
+    <fragment
+        android:id="@+id/nav_add_complaint"
+        android:name="com.sh.wm.ministry.featuers.home.homeFiles.workercompilation.view.WorkerCompilationFormOneFragment"
+        android:label="@string/worker_complaint"
+        tools:layout="@layout/fragment_file_complaint_form1" />
+
+
+    <fragment
+        android:id="@+id/nav_holland_main"
+        android:name="com.sh.wm.ministry.featuers.home.homeFiles.holandTest.view.HolandTestMainFragment"
+        android:label="@string/holand_test"
+        tools:layout="@layout/fragment_holand_test_main" />
+
+
+    <fragment
+        android:id="@+id/nav_holland_basic_data"
+        android:name="com.sh.wm.ministry.featuers.home.homeFiles.holandTest.view.HolandMajorServicesFragment"
+        android:label="@string/major_services"
+        tools:layout="@layout/fragment_holand_major_services" />
+
+
+    <fragment
+        android:id="@+id/nav_holland_dream_career"
+        android:name="com.sh.wm.ministry.featuers.home.homeFiles.holandTest.view.YourDreamsCareerFragment"
+        android:label="@string/dream_career"
+        tools:layout="@layout/fragment_your_dreams_career" />
+
+    <fragment
+        android:id="@+id/nav_holland_activities"
+        android:name="com.sh.wm.ministry.featuers.home.homeFiles.holandTest.view.HollandTestActivitiesFragment"
+        android:label="@string/activities"
+        tools:layout="@layout/fragment_holland_test_activities" />
+
+
+    <fragment
+        android:id="@+id/nav_holland_skills"
+        android:name="com.sh.wm.ministry.featuers.home.homeFiles.holandTest.view.HollandSkillsTestFragment"
+        android:label="@string/competencies"
+        tools:layout="@layout/fragment_holland_skills_test" />
+
+
+    <fragment
+        android:id="@+id/nav_holland_careers"
+        android:name="com.sh.wm.ministry.featuers.home.homeFiles.holandTest.view.HollandCareersFragment"
+        android:label="@string/careers"
+        tools:layout="@layout/fragment_holland_careers" />
+    <fragment
+        android:id="@+id/nav_holland_evaluation"
+        android:name="com.sh.wm.ministry.featuers.home.homeFiles.holandTest.view.EvaluationFragment"
+        android:label="@string/self_evaluation"
+        tools:layout="@layout/fragment_evaluation" />
+
+    <fragment
+        android:id="@+id/nav_holland_result"
+        android:name="com.sh.wm.ministry.featuers.home.homeFiles.holandTest.view.HollandResultFragment"
+        android:label="@string/result"
+        tools:layout="@layout/fragment_holland_result" />
+
+    <fragment
+        android:id="@+id/nav_holland_similar_job"
+        android:name="com.sh.wm.ministry.featuers.home.homeFiles.holandTest.view.HollandSimilarJobsFragment"
+        android:label="@string/result"
+        tools:layout="@layout/fragment_holland_similar_jobs" />
+
+</navigation>

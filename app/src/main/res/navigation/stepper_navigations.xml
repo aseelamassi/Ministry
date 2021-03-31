@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/stepper_navigations">
+
+
+    <fragment
+        android:id="@+id/step_1_main_data"
+        android:name="com.sh.wm.ministry.featuers.home.homeFiles.inspection.view.additionalServices.insertWorker.WorkerMajorDataFragment"
+        android:label="@string/major_services"
+        tools:layout="@layout/fragment_worker_major_data"/>
+
+    <fragment
+        android:id="@+id/step_2_work_status"
+        android:name="com.sh.wm.ministry.featuers.home.homeFiles.inspection.view.additionalServices.insertWorker.WorkStatusWorkerFragment"
+        android:label="@string/practical_status"
+        tools:layout="@layout/fragment_work_status_worker"/>
+
+    <fragment
+        android:id="@+id/step_3_health_status"
+        android:name="com.sh.wm.ministry.featuers.home.homeFiles.inspection.view.additionalServices.insertWorker.WorkStatusWorkerFragment"
+        android:label="@string/health_status"
+        tools:layout="@layout/fragment_work_status_worker"/>
+
+
+
+</navigation>

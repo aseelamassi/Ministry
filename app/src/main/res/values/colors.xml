@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1976D2</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#1976D2</color>
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="mercury">#E4E4E4</color>
+    <color name="jordy_blue">#75ACE4</color>
+    <color name="mine_shaft">#242424</color>
+    <color name="gallery">#EEEEEE</color>
+
+    <color name="fruit_salad">#4CAF50</color>
+    <color name="cinnabar">#E53935</color>
+
+    <color name="dorado">#615E5E</color>
+    <color name="dove_gray">#707070</color>
+
+    <color name="dark_gray">#C6C6C6</color>
+    <color name="green">#009705</color>
+    <color name="green_opacity">#81C683</color>
+    <color name="black">#000</color>
+    <color name="red">#FF0000</color>
+
+    <color name="orange">#FCB900</color>
+    <color name="orange_opacity">#F5D681</color>
+    <color name="dark_blue">#3E6D9E</color>
+    <color name="dark_blue_opacity">#9DB3C9</color>
+    <color name="primary_color_opacity">#8CB7E1</color>
+    <color name="purple">#9F6AC7</color>
+    <color name="purple_opacity">#C8AFDA</color>
+    <color name="anything">#30C4AF</color>
+    <color name="anything_opacity">#96DAD0</color>
+    <color name="yellow">#FFC830</color>
+
+    <!-- holand color -->
+    <color name="caramel_color">#F6C939</color>
+
+
+    <color name="dark_green">#46975C</color>
+    <color name="dark_green_opacity">#A2CBAD</color>
+
+    <color name="dark_purple">#C16465</color>
+    <color name="dark_purple_opacity">#E0B1B2</color>
+
+    <color name="cyan_opacity">#AFC7DD</color>
+
+    <color name="gray">#9E9494</color>
+    <color name="gray_opacity">#CEC9C9</color>
+
+    <color name="light_purple">#A362E5</color>
+    <color name="light_purple_opacity">#D1B0F2</color>
+
+</resources>

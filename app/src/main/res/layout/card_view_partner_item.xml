@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="rtl">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_view"
+        style="@style/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:paddingBottom="10dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_base_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="70dp"
+                android:layout_height="0dp"
+                android:background="@color/gallery"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <ImageView
+                android:id="@+id/circularImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/view"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/view"
+                app:srcCompat="@drawable/ic_couple_color_full" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/materialTextView"
+                style="@style/txtStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/partner_name"
+                android:textColor="@color/mine_shaft"
+                app:layout_constraintStart_toEndOf="@+id/view"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/materialTextView2"
+                style="@style/txtStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/owner_id"
+                android:textColor="@color/mine_shaft"
+                app:layout_constraintStart_toEndOf="@+id/view"
+                app:layout_constraintTop_toBottomOf="@+id/materialTextView" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/materialTextView3"
+                style="@style/txtStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/request_status"
+                android:textColor="@color/mine_shaft"
+                app:layout_constraintStart_toEndOf="@+id/view"
+                app:layout_constraintTop_toBottomOf="@+id/materialTextView2" />
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_partner_name"
+                style="@style/txtStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/materialTextView"
+                app:layout_constraintTop_toTopOf="parent"
+
+                tools:text="503559" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_partner_id"
+                style="@style/txtStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/materialTextView2"
+                app:layout_constraintTop_toBottomOf="@+id/tv_partner_name"
+                tools:text="سيارة" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_status"
+                style="@style/txtStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/materialTextView3"
+                app:layout_constraintTop_toBottomOf="@+id/tv_partner_id"
+                tools:text="شركة حلاوة" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/card_view"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/card_view_background"
+        app:cardCornerRadius="6dp"
+        app:layout_constraintTop_toBottomOf="@+id/card_view">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:weightSum="2">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_practical_status"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:padding="7dp"
+                android:text="@string/practical_status"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_educational_status"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:padding="7dp"
+                android:text="@string/educational_status"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/table_border"
+        android:padding="1dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        android:fontFamily="@font/cairobold"
+        android:textSize="10sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardView">
+
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/row_border"
+            android:paddingStart="1dp"
+            android:paddingEnd="1dp"
+            android:paddingBottom="1dp"
+
+            >
+
+            <TextView
+                android:id="@+id/row1_name"
+                android:layout_weight="1"
+                android:background="@drawable/left_border"
+                android:gravity="center"
+                android:padding="20dip"
+                android:paddingTop="0dp"
+                android:paddingBottom="0dp"
+                android:textColor="@color/mine_shaft" />
+
+            <TextView
+                android:id="@+id/row1_value"
+
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="20dip"
+                android:paddingBottom="0dp"
+                android:textColor="@color/colorPrimary" />
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/row_border"
+            android:paddingStart="1dp"
+            android:paddingEnd="1dp"
+            android:paddingBottom="1dp"
+          >
+
+            <TextView
+                android:id="@+id/row2_name"
+                android:layout_weight="1"
+                android:background="@drawable/left_border"
+                android:gravity="center"
+
+                android:padding="20dip"
+                android:paddingTop="0dp"
+                android:paddingBottom="0dp"
+                android:textColor="@color/mine_shaft" />
+
+            <TextView
+                android:id="@+id/row2_value"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="20dip"
+                android:textColor="@color/colorPrimary" />
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/row_border"
+            android:paddingStart="1dp"
+            android:paddingEnd="1dp"
+            android:paddingBottom="1dp">
+
+            <TextView
+                android:id="@+id/row3_name"
+                android:layout_weight="1"
+                android:background="@drawable/left_border"
+
+                android:gravity="center"
+                android:padding="20dip"
+                android:paddingTop="0dp"
+                android:paddingBottom="0dp"
+                android:textColor="@color/mine_shaft" />
+
+            <TextView
+                android:id="@+id/row3_value"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="20dip"
+                android:textColor="@color/colorPrimary" />
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/row_border"
+            android:paddingStart="1dp"
+            android:paddingEnd="1dp"
+            android:paddingBottom="1dp">
+
+            <TextView
+                android:id="@+id/row4_name"
+                android:layout_weight="1"
+                android:background="@drawable/left_border"
+
+                android:gravity="center"
+                android:padding="20dip"
+                android:paddingTop="0dp"
+                android:paddingBottom="0dp"
+                android:textColor="@color/mine_shaft" />
+
+            <TextView
+                android:id="@+id/row4_value"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="20dip"
+                android:textColor="@color/colorPrimary" />
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/row_border"
+            android:paddingStart="1dp"
+            android:paddingEnd="1dp"
+            android:paddingBottom="1dp">
+
+            <TextView
+                android:id="@+id/row5_name"
+                android:layout_weight="1"
+                android:background="@drawable/left_border"
+
+                android:gravity="center"
+                android:padding="20dip"
+                android:paddingTop="0dp"
+                android:paddingBottom="0dp"
+                android:textColor="@color/mine_shaft" />
+
+            <TextView
+                android:id="@+id/row5_value"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="20dip"
+                android:textColor="@color/colorPrimary" />
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/row_border"
+            android:visibility="gone"
+            android:paddingStart="1dp"
+            android:paddingEnd="1dp"
+            android:paddingBottom="1dp">
+
+            <TextView
+                android:id="@+id/row6_name"
+                android:layout_weight="1"
+                android:background="@drawable/left_border"
+
+                android:gravity="center"
+                android:padding="20dip"
+                android:paddingTop="0dp"
+                android:paddingBottom="0dp"
+                android:textColor="@color/mine_shaft" />
+
+            <TextView
+                android:id="@+id/row6_value"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="20dip"
+                android:textColor="@color/colorPrimary" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

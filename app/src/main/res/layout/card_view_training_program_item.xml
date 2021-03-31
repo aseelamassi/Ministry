@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="rtl">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="70dp"
+            android:layout_height="0dp"
+            android:background="@color/gallery"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/circularImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:tint="@color/colorAccent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/view"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/view"
+            app:srcCompat="@drawable/ic_practical_skill"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_filed_one"
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="26dp"
+            android:text="@string/train_name"
+            app:layout_constraintTop_toBottomOf="@+id/ib_edit_train_program"
+            android:textColor="@color/mine_shaft"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/view"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_filed_two"
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+
+            android:layout_marginTop="2dp"
+            android:text="@string/train_type"
+            android:textColor="@color/mine_shaft"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/view"
+            app:layout_constraintTop_toBottomOf="@+id/tv_train_name" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_filed_three"
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="2dp"
+            android:text="@string/train_dest"
+            android:textColor="@color/mine_shaft"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/view"
+            app:layout_constraintTop_toBottomOf="@+id/tv_filed_two" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_filed_four"
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/train_hour"
+            android:textColor="@color/mine_shaft"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/view"
+            app:layout_constraintTop_toBottomOf="@+id/tv_filed_three" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_train_name"
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:textSize="12sp"
+            app:layout_constraintTop_toBottomOf="@+id/ib_edit_train_program"
+            app:layout_constraintStart_toEndOf="@+id/tv_filed_two"
+            app:layout_constraintTop_toTopOf="@+id/tv_filed_one"
+            tools:text="رسام الكتروني رسام الكتروني رسام رسامرسامرسامرسام  " />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_train_type"
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/tv_filed_two"
+            app:layout_constraintTop_toTopOf="@+id/tv_filed_two"
+            tools:text="غير مجاز" />
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_train_dest"
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/tv_filed_three"
+            app:layout_constraintTop_toTopOf="@+id/tv_filed_three"
+            tools:text="غير مجاز" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_train_hour"
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/tv_filed_four"
+            app:layout_constraintTop_toTopOf="@+id/tv_filed_four"
+            tools:text="غير مجاز" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/ib_edit_train_program"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:padding="4dp"
+            android:src="@drawable/ic_edit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

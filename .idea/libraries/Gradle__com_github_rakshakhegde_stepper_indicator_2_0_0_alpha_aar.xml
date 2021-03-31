@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.rakshakhegde:stepper-indicator:2.0.0-alpha@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ae62ee0091a929f2be87f96df3f00e84/jetified-stepper-indicator-2.0.0-alpha/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ae62ee0091a929f2be87f96df3f00e84/jetified-stepper-indicator-2.0.0-alpha/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ae62ee0091a929f2be87f96df3f00e84/jetified-stepper-indicator-2.0.0-alpha/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/abf93989f59eb9580eb66bcba997d6ac/jetified-stepper-indicator-2.0.0-alpha/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/abf93989f59eb9580eb66bcba997d6ac/jetified-stepper-indicator-2.0.0-alpha/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/abf93989f59eb9580eb66bcba997d6ac/jetified-stepper-indicator-2.0.0-alpha/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.rakshakhegde/stepper-indicator/2.0.0-alpha/cef61f2a0073bf44bafc165d65f1bbbf13c73ac1/stepper-indicator-2.0.0-alpha-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

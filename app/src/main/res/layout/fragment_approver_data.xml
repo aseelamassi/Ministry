@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layoutDirection="rtl"
+        android:padding="10dp"
+        android:background="@drawable/card_view_background"
+        tools:context=".featuers.home.homeFiles.inspection.view.additionalServices.editConstructionData.LicenseDataFragment">
+
+
+        <TextView
+            android:id="@+id/tv_infromative_adj_label"
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/approver_adjectives"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <RadioGroup
+            android:id="@+id/rg_informative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_infromative_adj_label">
+
+
+
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/tv_approver_sn"
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/approver_sn"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/rg_informative" />
+
+        <LinearLayout
+            android:id="@+id/ll_container"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="8dp"
+            android:weightSum="4"
+            app:layout_constraintEnd_toStartOf="@id/guideline"
+            app:layout_constraintStart_toStartOf="@id/tv_approver_sn"
+            app:layout_constraintTop_toBottomOf="@id/tv_approver_sn"
+            android:background="@drawable/edit_txt_bg"
+
+
+            >
+            <EditText
+                android:id="@+id/ed_approver_sn"
+                style="@style/datePickerStyle"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:inputType="number"
+                />
+
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/btn_get_boss_name"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:src="@drawable/ic_search"
+                android:padding="8dp"
+                android:layout_height="38dp"
+                android:background="@drawable/edit_txt_bg"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_width="0dp" />
+
+        </LinearLayout>
+
+
+
+
+        <TextView
+            android:id="@+id/tv_approver_name"
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/approver_name"
+            android:layout_marginTop="10dp"
+
+            app:layout_constraintStart_toEndOf="@id/guideline"
+            app:layout_constraintTop_toBottomOf="@id/rg_informative" />
+
+        <EditText
+            android:id="@+id/ed_approver_name"
+            style="@style/datePickerStyle"
+            android:layout_width="0dp"
+            android:layout_marginStart="8dp"
+            android:background="@color/dark_gray"
+            android:layout_marginTop="10dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/tv_approver_name"
+            app:layout_constraintTop_toBottomOf="@id/tv_approver_name" />
+
+
+
+
+        <TextView
+            android:id="@+id/tv_interview_result"
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/interview_result"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ed_approver_name" />
+
+
+        <RadioGroup
+            android:id="@+id/rg_interview_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_interview_result">
+
+
+
+
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/tv_unComplete_Reason"
+            style="@style/txtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/unComplete_reason"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/rg_interview_result" />
+
+
+        <EditText
+            android:id="@+id/ed_unComplete_Reason"
+            style="@style/editTxtStyle"
+            android:layout_width="match_parent"
+            android:layout_marginEnd="8dp"
+            android:inputType="text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_unComplete_Reason" />
+
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_save"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            style="@style/btnStyle"
+            android:text="@string/save"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toStartOf="@id/guideline"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ed_unComplete_Reason" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_save_with_approve"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            style="@style/btnStyle"
+            android:text="@string/save_with_approve"
+            app:backgroundTint="@color/green"
+            android:layout_marginEnd="8dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/guideline"
+            app:layout_constraintTop_toBottomOf="@id/ed_unComplete_Reason" />
+
+
+
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.50" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

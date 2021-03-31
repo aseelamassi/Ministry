@@ -1,0 +1,738 @@
+<resources>
+    <string name="app_name">نظام سوق العمل المحلي</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="answer_all_questions">يجب عليك إجابة جميع الاسئلة</string>
+    <string name="file_is_large">الملف الذي قمت باختياره كبير يرجي اختيار ملف اخر</string>
+    <string name="allow">سماح</string>
+    <string name="allow_auto_start">تفعيل التشغيل التلقائي / auto start</string>
+    <string name="enable_auto_start">يجب عليك تفعيل التشغيل التلقائي(auto start) حتي نتمكن من حفظ المعلومات وارسالها لعدم تواجد الانترنت </string>
+
+
+    <string name="choose_avg_or_rating">يجب عليك اختيار اما المعدل او التقدير</string>
+    <string name="construction_num_empty">يجب عليك إدخال رقم المنشأة أولاً</string>
+    <string name="legal_entity_no_internet">لن يتم عرض بيانات الكيان القانوني للمنشأة لعدم توافر الانترنت</string>
+    <string name="owner_empty">يجب عليك ادخال رقم الهوية للمالك وتاريخ بداية عمله</string>
+    <string name="secondary_sector_empty">يجب عليك اختيار النشاط الثانوي أولاً</string>
+    <string name="legal_entity_empty">يجب عليك تعبئة جميع الحقول عدا بيانات المالك و وصف النشاطات</string>
+
+
+    <string name="menu_home">الرئيسية</string>
+    <string name="menu_user_file">ملف المستخدم</string>
+    <string name="menu_signout">تسجيل الخروج</string>
+    <string name="major_services">البيانات الأساسية</string>
+    <string name="main_services">الخدمات الأساسية</string>
+    <string name="worker_complaint">تقديم شكوى\n عمالية</string>
+    <string name="request_calculate_labor_rights">طلب احتساب\n حقوق عمالية</string>
+    <string name="visits_services">خدمات الزيارات</string>
+    <string name="facility_services">خدمات المنشآت</string>
+    <string name="move_facility">نقل مكان المنشأة</string>
+    <string name="request_calculation_right">طلب احتساب حقوق عمالية</string>
+    <string name="requset_register_certification">طلب شهادة\n قيد</string>
+    <string name="report_left_work_place">الإبلاغ عن ترك مكان عمل في المنشأة</string>
+    <string name="report_at_new_work_place">الإبلاغ عن مكان عمل جديد</string>
+    <string name="alert_template">نموذج إنذار</string>
+    <string name="legal_action">تنسيب إجراء قانوني</string>
+    <string name="create_seizure_report">إنشاء محضر ضبط</string>
+    <string name="close_facility">قرار إغلاق المنشأة</string>
+    <string name="test_name">براء اياد غازي الكحلوت</string>
+    <string name="choose_activities">اختر النشاطات التي ترغب بها</string>
+    <string name="choose_skills">اختر الكفاءات التي ترغب بها</string>
+    <string name="choose_career">اختر المهن التي ترغب بها</string>
+
+    <string name="attachment_record">مرفقات و سجلات الضبط</string>
+    <string name="patient_info">البيانات الأساسية</string>
+    <string name="PalestinianID">رقم الهوية الفلسطينية</string>
+    <string name="FirstName">الاسم الأول</string>
+    <string name="FatherName">اسم الأب</string>
+    <string name="GrandfatherName">اسم الجد</string>
+    <string name="Gender">الجنس</string>
+    <string name="DateOfBirth">تاريخ الميلاد</string>
+    <string name="NumberOfChildren">عدد الأولاد</string>
+    <string name="SocialStatus">الحالة الاجتماعية</string>
+    <string name="OtherNationality">جنسية أخرى</string>
+    <string name="Family">العائلة</string>
+    <string name="PlaceOfBirth">مكان الولادة</string>
+    <string name="residencePlace">مكان الاقامة</string>
+    <string name="MotherName">اسم الأم</string>
+    <string name="DateOfDeath">تاريخ الوفاة</string>
+    <string name="Nationality">الجنسية</string>
+    <string name="Save">حفظ</string>
+    <string name="state">المحافظة</string>
+    <string name="district">الحي</string>
+    <string name="region">المنطقة</string>
+    <string name="move_facility_empty">يجب عليك اختيار المحافظة والبلدية وتعبئية الموبايل والهاتف علي الأقل</string>
+    <string name="web_page_error">يجب عليك ادخال رابط صفحة الكترونية صحيح</string>
+    <string name="email_error">يجب عليك ادخال بريد الكتروني صحيح</string>
+    <string name="city">المدينة</string>
+    <string name="street">الشارع</string>
+    <string name="address_details">تفاصيل العنوان</string>
+    <string name="nearset_address">أقرب معلم</string>
+    <string name="building">البناية</string>
+    <string name="phone_number">رقم الموبايل</string>
+    <string name="Telephone">الهاتف</string>
+    <string name="phone_number_first_grade">رقم الموبايل درجة أولى</string>
+    <string name="save_nationality">هل تريد حفظ هذه الجنسية؟</string>
+    <string name="confirm_address_update">هل أنت متأكد أنك تريد تعديل البيانات؟</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="facebook">فيسبوك</string>
+    <string name="health_status">الحالة الصحية</string>
+    <string name="health_status_detail">تفاصيل الحالة الصحية</string>
+    <string name="relative_relation">صلة القرابة</string>
+    <string name="occupation">المهنة</string>
+    <string name="kind_of_education">نوع التعليم</string>
+    <string name="educational_status">الحالة التعليمية</string>
+    <string name="qualification">المؤهل</string>
+    <string name="qualification_detail">تفاصيل المؤهل</string>
+    <string name="avg">المعدل</string>
+    <string name="rating">التقدير</string>
+    <string name="graduation_country">بلد التخرج</string>
+    <string name="graduation_year">سنة التخرج</string>
+    <string name="practicing_certificate">هل يوجد شهادة مزاولة؟</string>
+    <string name="certificate_no">رقم الشهادة</string>
+    <string name="notes">ملاحظات</string>
+    <string name="cancel">إلغاء</string>
+    <string name="update_nationality">يجب عليك تعديل الجنسية الاخري</string>
+    <string name="update_nationality_empty">يجب عليك تعبئة المديرية التي تتبع لهاعلي الاقل</string>
+    <string name="edit_field"> يجب عليك تعديل إحدي البيانات</string>
+    <string name="facebook_error">رابط الفيسبوك غير صحيح</string>
+    <string name="empty_field">يجب عليك مليء جميع الحقول</string>
+    <string name="disability_empty_feild">يجب عليك ملء نوع الاعاقة ومكانها وحجمها علي الأقل</string>
+    <string name="career_empty">يجب عليك اختيار نوع المهنة</string>
+    <string name="add_career_empty">يجب عليك اختيار المهنة</string>
+    <string name="worker_health_no_internet">تم حفظ طلبك وعند الاتصال بالانترنت سيتم ارسال البيانات</string>
+    <string name="wrong_email">يجب عليك ادخال بريد الكتروني صحيح</string>
+    <string name="wrong_url">يجب عليك ادخال رابط صفحة الكترونية صحيحة</string>
+
+    <string name="work_exp_empty">يجب عليك ملء حقول نوع الخبرة والمهنة واسم المؤسسة و تاريخ بداية العمل على الاقل</string>
+    <string name="is_today">لا يمكنك اختيار تاريخ الانتهاء اليوم</string>
+    <string name="is_bigger_today">لا يمكنك اختيار تاريخ الانتهاء أكبر من اليوم</string>
+    <string name="is_bigger">لا يمكنك اختيار تاريخ بدء العمل أكبر من تاريخ انتهاء العمل</string>
+
+    <string name="careers">المهن</string>
+
+    <string name="name_of_enterprise">حدد اسم المنشأة</string>
+    <string name="employer_name">اسم صاحب العمل</string>
+    <string name="labor_name">اسم  العامل</string>
+    <string name="phone">جوال/ تليفون</string>
+    <string name="activity_sector">قطاع النشاط</string>
+    <string name="work_field">مجال العمل المحدد</string>
+    <string name="institute_name_temporary">اسم المنشأة*مؤقت*</string>
+    <string name="enterprise_address">عنوان المنشأة</string>
+    <string name="ending_work_way">طريقة إنهاء العمل</string>
+    <string name="radioButton1_arbitrary_fired">فصل تعسفي</string>
+    <string name="radioButton1_legal_fired">فصل قانوني</string>
+    <string name="radioButton2_resignation">استقالة</string>
+    <string name="radioButton3_leaving">ترك</string>
+    <string name="ending_work_reasons">أسباب انهاء العمل</string>
+    <string name="Next">التالي</string>
+    <string name="contract">" يوجد عقد عمل مكتوب"</string>
+    <string name="work_type">نوع العمل/ المهنة</string>
+    <string name="type_of_contract">نوع العقد</string>
+    <string name="last_pay">الأجر الأخير</string>
+    <string name="pay_type">نوع الأجر</string>
+    <string name="duration_pay">المدة(بالأيام)</string>
+    <string name="date_beginning_work">تاريخ بداية العمل</string>
+    <string name="leave_date">تاريخ ترك العمل</string>
+    <string name="date_ending_work">تاريخ نهاية العمل</string>
+    <string name="work_duration">مدة العمل</string>
+    <string name="real_work_duration">مدة العمل الفعلية(سنوات)</string>
+    <string name="late_payments">أجور متأخرة</string>
+    <string name="yearly_vacation_duration">مدة الاجازة السنوية</string>
+    <string name="period_not_observed">مدة المهلة التي لم تراع</string>
+    <string name="legal_period_ending_work">روعيت المدة القانونية لإنهاء العمل</string>
+    <string name="Save_complaint">حفظ الشكوى</string>
+    <string name="address_contact">العنوان والتواصل</string>
+    <string name="dependents">المعالين</string>
+    <string name="dependent_not_approve">المعال غير مطابق للشروط</string>
+    <string name="training_programs">البرامج التدريبية</string>
+    <string name="acadmic_programs">البرنامج الأكاديمية</string>
+
+
+    <string name="rights_empty">يجب عليك تعبئة الأجر الأخير و تاريخ البداية والنهاية و نوع الاجر وأجور متأخرة وطريقة انهاء العمل و الاجازات ومدة المهلة ان كان هناك مدة لم تراع</string>
+
+    <!-- screens with just display data-->
+    <!--travel -->
+    <string name="travel">السفر</string>
+    <string name="no_travel">لا يوجد أية معلومات متوفرة لديك بالسفر</string>
+    <string name="location">مكان التواجد</string>
+    <string name="passport_no">رقم جواز السفر</string>
+    <string name="travel_date">تاريخ السفر/العودة</string>
+    <string name="where_to_travel">مكان السفر</string>
+    <string name="travel_reason">سبب السفر</string>
+
+    <!-- family member-->
+    <string name="family_member">أفراد العائلة</string>
+    <string name="no_family_member">لا يوجد معلومات متعلقة بأفراد عائلتك</string>
+
+    <!-- partner-->
+    <string name="no_partner">لا يوجد لديك أي شريك</string>
+    <string name="partner">الشريك</string>
+    <string name="partner_name">اسم الشريك</string>
+
+    <string name="is_equal">لا يمكن اختيار تاريخ البداية مساوي لتاريخ النهاية</string>
+
+    <!--social aid -->
+    <string name="no_social_aid">لا تتلقي أي إعانة اجتماعية</string>
+    <string name="no_support">لا تتوفر أية معلومات متعلقة بالاستفادة من الحاضنات</string>
+    <string name="social_aid">إعانة اجتماعية</string>
+    <string name="account_no">رقم الحساب</string>
+    <string name="bank_name">اسم البنك</string>
+    <string name="bank_branch">الفرع</string>
+    <string name="bank_address">عنوان البنك</string>
+    <string name="protection_entity">جهة الحماية</string>
+    <string name="pension_value">قيمة المعاش</string>
+    <string name="social_type">يتلقي مخصص</string>
+
+    <!--realty -->
+    <string name="realty">ملكية العقارات</string>
+    <string name="no_realty">لا يوجد أي معلومات متعلقة بملكية العقارات </string>
+    <string name="custom_number">رقم المخصص</string>
+    <string name="realty_type">نوع العقار</string>
+    <string name="realty_name">اسم العقار</string>
+    <string name="realty_address">العنوان</string>
+    <string name="average_share_capital">($)متوسط رأس المال</string>
+
+
+    <!--returning labor -->
+    <string name="returning_labor">العمالة العائدة</string>
+    <string name="no_returning_labor">لا يوجد أي عمالة عائدة</string>
+    <string name="add_returning_labor">إضافة عمالة عائدة</string>
+    <string name="last_job">آخر مهنة</string>
+    <string name="skill_level">مستوى المهاراة</string>
+    <string name="returned_country">البلد العائد منها</string>
+    <string name="last_job_work_in">آخر مهنة عمل بها</string>
+    <string name="returning_labor_empty">يجب عليك تعبئة جميع الحقول عدا سبب العودة غير اجباري</string>
+
+
+    <string name="user_sn_empty">يجب عليك إدخال رقم الهوية أولاً</string>
+
+
+    <string-array name="gender">
+        <item>ذكر</item>
+        <item>انثى</item>
+    </string-array>
+
+    <string name="legal_procedures">الإجراءات القانونية</string>
+    <string name="no_connection">لا يوجد اتصال بالانترنت</string>
+    <string name="check_connection">تحتاج الى الاتصال بالانترنت للوصول الى البيانات قم بالتأكد من اتصالك.</string>
+    <string name="key_token">token</string>
+    <string name="default_key_token">null</string>
+    <string name="training_institution">جهة التدريب</string>
+    <string name="training_course">الدورة التدريبية</string>
+    <string name="cycle_type">نوع التدريب</string>
+    <string name="trainning_Enterprise">المؤسسة التدريبية</string>
+    <string name="start_date_course">تاريخ بداية الدورة</string>
+    <string name="end_date_course">تاريخ نهاية الدورة</string>
+    <string name="hour_number">عدد الساعات</string>
+    <string name="training_provider_address">عنوان جهة التدريب</string>
+    <string name="proccess_failed">فشلت العملية</string>
+    <string name="no_internet">لا يوجد انترنت </string>
+    <string name="make_sure_that_you_have_internet">الرجاء التأكد من وجود انترنت</string>
+    <string name="key_userId">user_id</string>
+    <string name="no_dependnts">لم يتم إضافة معالين من قبل!</string>
+    <string name="name">الاسم</string>
+    <string name="id">رقم الهوية</string>
+    <string name="relation_ship">صلة القرابة</string>
+    <string name="add_dependents">إضافة معال</string>
+    <string name="do_want_to_add_new_dependents">هل تريد حفظ معال جديد؟</string>
+    <string name="save">حفظ</string>
+    <string name="save_with_approve">حفظ مع ارسال للاعتماد</string>
+    <string name="edit">تعديل</string>
+
+    <string name="owner_data">بيانات مالك المنشأة</string>
+    <!-- fragment careers strings -->
+    <string name="career_vacation">الاجازة المهنية</string>
+    <string name="career_name">اسم المهنة</string>
+    <string name="no_career">"لا يوجد لديك أي مهن!"</string>
+    <string name="add_career">إضافة مهنة</string>
+    <string name="experience_year">سنوات الخبرة</string>
+    <string name="do_want_to_update_career">هل تريد تعديل بيانات هذه المهنة؟</string>
+
+
+    <!-- fragment work experience strings -->
+    <string name="experience_type">نوع الخبرة</string>
+    <string name="work_place">مكان العمل</string>
+    <string name="job_title">المسمى الوظيفي</string>
+    <string name="institution_name">اسم المؤسسة</string>
+    <string name="work_beginning_date">تاريخ بداية العمل</string>
+    <string name="work_ending_date">تاريخ نهاية العمل</string>
+    <string name="no_experience_added">لم يتم إضافة خبرات عملية من قبل!</string>
+    <string name="add_experience">إضافة خبرات عملية</string>
+    <string name="practical_experiences">الخبرات العملية</string>
+    <string name="no_education">لم يتم إضافة حالة تعليمية من قبل</string>
+    <string name="add_eductionalstatus">إضافة حالة تعليمية</string>
+    <string name="do_want_to_add_new_education">هل تريد حفظ الحالة التعليمية</string>
+    <string name="educational_institution">المؤسسة التعليمية</string>
+    <string name="specialization">التخصص</string>
+    <string name="department">القسم</string>
+
+
+    <!--health status fragment -->
+    <string name="disability_type">نوع الإعاقة</string>
+    <string name="disability_size">حجم الإعاقة</string>
+    <string name="disability_place">مكان الإعاقة</string>
+    <string name="disability_reason">سبب الإعاقة</string>
+    <string name="health_save">هل تريد تعديل حالتك </string>
+    <string name="health_empty">يجب عليك اختيار حالة صحية</string>
+
+
+    <string name="cermonies">الاجازات الرسمية والدينية المتبقية</string>
+
+
+    <!--    move fragment-->
+    <string name="numberfacility">اسم المنشأة</string>
+    <string name="governorate">المحافظة</string>
+    <string name="director_empty">يجب عليك اختيار المحافظة أولاً</string>
+    <string name="municipal">البلدية</string>
+    <string name="title_description">وصف العنوان</string>
+    <string name="mailbox_number">رقم صندوق البريد</string>
+    <string name="electronic_page">الصفحة الالكترونية</string>
+    <string name="number_bulding">رقم المبنى</string>
+    <string name="fax_num">رقم الفاكس</string>
+    <string name="lat">خطوط الطول(Lat)</string>
+    <string name="longitude">خطوط العرض(Long)</string>
+    <string name="owner_name">اسم المالك </string>
+    <string name="owner_id">رقم الهوية </string>
+    <string name="The_business_name">الاسم التجاري </string>
+
+    <string name="full_name">الاسم الرباعي</string>
+    <!--    -->
+    <string name="searsh_for_nu_facilty">البحث عن رقم المنشأة</string>
+    <string name="no_langu_ages_added">لايوجد اي لغات مضافة</string>
+    <string name="save_enterprise_place">هل تريد حفظ نقل مكان منشأة</string>
+    <string name="new_work_place">هل تريد حفظ تغير مكان العمل في منشأة ؟</string>
+    <string name="leaving_work_place">هل تريد تأكيد ترك العمل في منشأة</string>
+    <string name="leaving_reason">سبب ترك العمل</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text1">مخالفات المنشأة لأحكام قانون العمل الفلسطيني رقم 7 و الأنظمة و القرارات و التعليمات الصادرة بمقتضاه</string>
+    <string name="article_number">المتعلقة برقم المادة</string>
+    <string name="members_inspection">أعضاء هيئة التفتيش</string>
+    <string name="_nspector_staff_1">اسم هيئة المفتش 1</string>
+    <string name="_nspector_staff_2">"اسم هيئة المفتش 2 "</string>
+    <string name="_nspector_staff_3">"اسم هيئة المفتش 3 "</string>
+    <string name="text2">استنادا لأحكام المادة (133) من قانون العمل الفلسطيني 7 لسنة 2000 تم تنسيب مخالفات المنشاة لأحكام قانون العمل الفلسطيني رقم 7 و الأنظمة و القرارات و التعليمات الصادرة بمقتضاه</string>
+    <string name="cloase_facility">إغلاق كلي للمنشآت</string>
+    <string name="stop_machine">وقف عمل آلة</string>
+    <string name="partial_closure">إغلاق جزئي للمنشاة</string>
+    <string name="action_date">تاريخ الاجراء</string>
+    <string name="machine_name">اسم الآلة</string>
+    <string name="recommend_procedures">تنسيب الاجراءات التالية</string>
+    <string name="record_start_hour">ساعة بداية المحضر</string>
+    <string name="end_hour_of_the_record">ساعة نهاية المحضر</string>
+    <string name="alarm_form">نموذج انذار</string>
+    <string name="adjustment_report">انشاء محضر ضبط</string>
+    <string name="date_visit">تاريخ الزيارة</string>
+    <string name="date_alarm">تاريخ الانذار</string>
+    <string name="registration_certificate">هل تريد طلب شهادة قيد؟</string>
+    <string name="breakdown_statement_request">هل تريد طلب إفادة متعطل؟</string>
+    <string name="dependent_empty">يجب عليك ادخال رقم الهوية أولاً</string>
+
+    <string name="choose_rate">اختر التقدير</string>
+
+
+    <string name="alarm_empty">يجب عليك اختيار المؤسسة وتاريخ الزيارة والانذار ومفتش واحد علي الاقل ونص مادة واحد علي الاقل</string>
+    <string name="visit_today">لا يمكن اختيار تاريخ الزيارة اليوم</string>
+    <string name="alarm_today">لا يمكن اختيار تاريخ الانذار اليوم</string>
+    <string name="alarm_bigger">لا يمكن اختيار تاريخ الانذار أقل من تاريخ الزيارة</string>
+    <string name="save_alarm">هل تريد حفظ الانذار لهذه المنشأة</string>
+    <string name="save_legal">هل تريد اجراء التنسيب القانوني لهذه المنشأة</string>
+    <string name="machine_empty">يجب عليك ادخال اسم الالة</string>
+    <string name="close_date">تاريخ الاغلاق</string>
+
+    <string name="adjustment_empty">يجب عليك اختيار المؤسسة وتاريخ الزيارة وساعة بداية وانتهاء المحضر ومفتش واحد علي الاقل ونص مادة واحد علي الاقل</string>
+    <string name="adjustment_bigger">يجب أن تكون ساعة بداية المحضر أصغر من انتهائه</string>
+    <string name="adjustment_today">لا يمكن اختيار تاريخ الزيارة أكبر من اليوم</string>
+    <string name="end_today">لا يمكن اختيار تاريخ ترك العمل أكبر من اليوم</string>
+    <string name="greater_than_5">لا يمكنك اضافة أكثر من 5 قوانين</string>
+    <string name="field_before_empty">أرجو منك تعبئة الحقل الذي سبق قبل إضافة حقل جديد</string>
+    <string name="license_side_empty">يجب عليك اختيار الجهة المرخصة أولاً</string>
+    <string name="file_no_internet">لا يمكنك إضافة ملف عند عدم وجود انترنت</string>
+    <string name="license_info_empty">يجب عليك اختيار هل المنشأةمسجلة ومرخصة وهل يوجد تأمين وهل يوجد نظام داخلي ووقت العمل للمنشاة </string>
+    <string name="insurance_empty">يجب عليك اختيار شركة التأمين و ورقم بوليصة التأمين وتاريخ انتهاء التأمين</string>
+
+
+    <string name="work_period_less_than_1">لا يمكنك احتساب لمدة عمل أقل من سنة</string>
+
+
+    <string name="report_start_date">ساعة بداية المحضر </string>
+    <string name="report_end_date">ساعة نهاية المحضر</string>
+
+    <!-- languages strings -->
+    <string name="no_languages_added">"! لم يتم إضافة لغات من قبل "</string>
+    <string name="add_language">إضافة لغات</string>
+    <string name="language">اللغة</string>
+    <string name="level">اللغة</string>
+    <string name="speaking_skill">مهارة المحادثة</string>
+    <string name="writing_skill">مهارة الكتابة</string>
+    <string name="reading_skill">مهارة القراءة</string>
+    <string name="save_language">هل تريد حفظ  لغة جديدة؟</string>
+    <string name="save_complaint">هل تريد تقديم شكوى عمالية</string>
+    <string name="breakdown_statement">طلب إفادة متعطل</string>
+    <string name="complaint_error">يجب عليك اختيار المؤسسة و ان كان هناك عقد عمل مكتوب ومقدار الاجر الاخير والتواريخ وطريقة انهاء العمل و ان كان هناك مراعاة للمهلة القانونية و سبب انهاء العمل</string>
+
+    <string name="ending_work_select">يجب عليك اختيار طريقة انهاء العمل</string>
+    <string name="holand_test">اختبار هوالاند</string>
+    <string name="dream_career">أحلامك المهنية</string>
+    <string name="activities">النشاطات</string>
+    <string name="competencies">الكفاءات</string>
+    <string name="self_evaluation">التقييم الذاتي للقدرات والمهارات العامة والخاصة</string>
+    <string name="evaluation">التقييم</string>
+    <string name="evaluation_general_personal_capabilities">التقييم الذاتي للقدرات الشخصية العامة</string>
+    <string name="evaluation_private_personal_capabilities">التقييم الذاتي للقدرات الشخصي الخاصة</string>
+    <string name="years_number_finished">عدد سنوات الدراسة(التي انهيتها منذ الصف الأول)</string>
+    <string name="highest">الأعلى</string>
+    <string name="second">الثاني</string>
+    <string name="third">الثالث</string>
+
+    <string name="your_symbol">رمزك الثلاثي هو</string>
+    <string name="job_list_identical">قائمة ببعض المهن المتطابقة مع رمزك الثلاثي</string>
+    <string name="job_list_similar">قائمة ببعض المهن المتشابهة مع رمزك الثلاثي</string>
+
+    <string name="save_with_send_request">حفظ مع تقديم الطلب</string>
+
+    <string name="has_uncomplete_test">يوجد لديك اختبار لم يتم اكتماله</string>
+
+
+
+    <string name="career_text">اذكر المهن التى تحلم بها و تفكر بمزاولتها فى المستقبل بالاضافة الى تلك التى ناقشت تفاصيلها مع الاخرين سجل خيارك المهني الذي تفكر به حاليا فى حقل الادخال الاول ثم المهن التى فكرت بها قبل ذلك على حقول الادخال الاخرى</string>
+
+    <string name="result_text">ملاحظة: سيتم اضافة طلبك و تحديد موعد مع الموجه المهني لمناقشة النتائج و توجيهك بالشكل الصحيح و سيتم اشعارك بموعد المقابلة مع الموجه</string>
+    <string name="add_another_career">أضف مهنة أخرى</string>
+
+    <string name="more_than_eight"> لا يمكن اضافة أكثر من 8 مهن </string>
+
+    <!-- practical status -->
+    <string name="add_practical_status">إضافة حالة عملية</string>
+    <string name="no_practical_status">"لم يتم إضافة حالة عملية من قبل !"</string>
+    <string name="practical_status">الحالة العملية</string>
+    <string name="describe_practical_status">تفصيل الحالة العملية</string>
+    <string name="describe_describe_practical_status">تفصيل تفصيل الحالة العملية</string>
+    <string name="enterprise">المنشأة</string>
+    <string name="monthly_wage">قيمة الأجر الشهري</string>
+    <string name="work_hours">ساعات العمل</string>
+    <string name="job">المهنة</string>
+    <string name="currency_type">نوع العملة</string>
+    <string name="work_nature">طبيعة العمل</string>
+    <string name="works">يعمل</string>
+
+
+    <!-- custom dialog strings -->
+    <string name="job_rights">حقوق العمل</string>
+    <string name="amounts_due">المبالغ المستحقة</string>
+    <string name="indemnity">مكافأة نهاية الخدمة</string>
+    <string name="annual_vacation_days_allowance">بدل أيام الاجازة السنوية</string>
+    <string name="compensation_for_legal_time_limit">تعويض عن المهلة القانونية</string>
+    <string name="compensation_for_unfair_dismissal">تعويض عن الفصل التعسفي</string>
+    <string name="religious_holidays">الاجازات الدينية</string>
+    <string name="late_wages">أجور متأخرة</string>
+    <string name="total">المجموع</string>
+    <string name="result">النتيجة</string>
+    <string name="zero">0</string>
+    <string name="numSubject">رقم المادة</string>
+    <string name="searsh_for_nu_subject">البحث عن رقم المادة</string>
+    <string name="emphasis">تأكيد</string>
+    <string name="Cancel">إلغاء</string>
+    <string name="cloase_facility_Dialog_save">هل انتا متأكد انك تريد إغلاق هذه المنشأة</string>
+
+    <!-- training skills -->
+    <string name="course_type">نوع الدورة التدريبية</string>
+    <string name="course">الدورة التدريبية</string>
+    <string name="no_training_skills">"لم يتم إضافة مهارة تدريبية من قبل !"</string>
+    <string name="add_training_skills">إضافة مهارة تدريبية</string>
+    <string name="training_skills">المهارات التدريبية</string>
+    <string name="document_type">نوع الوثيقة</string>
+    <string name="document_no">رقم الوثيقة</string>
+    <string name="directorate">المديرية التي تتبع لها</string>
+    <string name="error">يوجد هناك خطأ</string>
+    <string name="age">العمر</string>
+    <string name="save_training_skill">هل تريد حفظ المهاراة التدريبية؟</string>
+    <string name="save_work_exp">هل تريد حفظ الخبرة العملية؟</string>
+
+    <!-- training programs -->
+    <string name="no_training_programs">"لم يتم إضافة برنامج تدريبي من قبل !"</string>
+    <string name="add_training_programs">إضافة برنامج تدريبي</string>
+    <string name="train_name">اسم الدورة</string>
+    <string name="train_type">نوع الدورة</string>
+    <string name="train_dest">جهة التدريب</string>
+    <string name="train_hour">عدد ساعات التدريب</string>
+
+    <!--career-->
+
+    <string name="certificate_year">سنة الحصول على الشهادة</string>
+    <string name="priority_specification">تحديد الاولوية</string>
+    <string name="file_add">الحاق ملفات مرفقة</string>
+    <string name="select_file">اختيار ملف</string>
+    <string name="no_file">لم يتم اختيار ملف</string>
+
+    <!--vehicle -->
+    <string name="vehicle">ملكية السيارات</string>
+    <string name="vehicle_type">نوع المركبة</string>
+    <string name="vehicle_number">رقم المركبة</string>
+    <string name="vehicle_company">الشركة المصنعة</string>
+    <string name="vehicle_year">سنة الانتاج</string>
+    <string name="no_vehicle">لا تتوافر أي معلومات بشأن ملكية السيارات</string>
+
+
+    <!--haya-->
+    <string name="company_name">اسم الشركة</string>
+    <string name="inspector_name">اسم المفتش</string>
+    <string name="inspection_plane_mng_btn">إدارة خطة الزيارات التفتيشية</string>
+    <string name="inspection_plane_prp_btn">إعداد خطة الزيارات التفتيشية</string>
+    <string name="inspection_dec_btn">إدارة اتخاذ الاجراءات القانونية</string>
+    <string name="inspection_mng_btn">إدارة الزيارات التفتيشية للمفتش</string>
+    <string name="inspection_visit_btn">زيارة تفتيشية خارج الخطة</string>
+    <string name="store_inspection_result">إدخال نتائج التفتيش</string>
+
+
+    <!-- request labor rights-->
+    <string name="work_type_labor">نوع العمل</string>
+    <string name="services_duration">مدة الخدمة</string>
+    <string name="remaining_annual_leave_days">أيام الإجازة السنوية المتبقية</string>
+
+    <!-- inspection results strings -->
+    <string name="take_procedures">اتخاذ الإجراءات التالية</string>
+    <string name="one_op_one">تنبيه شفوي</string>
+    <string name="one_op_two">تحرير نموذج استيفاء</string>
+    <string name="one_op_three">حفظ الزيارة وعدم اتخاذ أي اجراء بحق المنشأة</string>
+    <string name="recommended_procedures">أوصي باتخاذ الاجراءات التالية</string>
+    <string name="two_op_one">تحرير انذار خطي</string>
+    <string name="two_op_two">تحرير محضر ضبط</string>
+    <string name="fitting_procedures">أنسب الاجراءات التالية</string>
+    <string name="reasons">و ذلك للأسباب التالية</string>
+    <string name="date_of_process">تاريخ الاجراء</string>
+    <string name="stop_res">سبب وقف الالة</string>
+    <string name="from">من</string>
+    <string name="to">إلى</string>
+    <string name="plane_date">تاريخ الخطة</string>
+    <string name="plane_status">حالة الخطة</string>
+    <string name="certified">معتمدة</string>
+    <string name="not_certified">غير معتمدة</string>
+    <string name="rejected">مرفوضة</string>
+    <string name="search">بحث</string>
+    <string name="choose_inspector">اختر المفتش</string>
+    <string name="inspector_members">أعضاء هيئة التفتيش</string>
+    <string name="inspect_visit_resoan">سبب الزيارة التفتيشية</string>
+
+    <string name="inspector_recommendation">توصيات أعضاء هيئة المفتشين</string>
+    <string name="adoption_of_recommendation">اعتماد التوصيات التالية</string>
+    <string name="adoption_of_inspection_result">اعتماد نتائج الزيارة</string>
+    <string name="not_adoption_of_inspection_result">عدم اعتماد نتائج الزيارة</string>
+
+
+    <string name="facility_search">ابحث عن منشأة</string>
+    <string name="re_visit">إعادة الزيارة </string>
+    <string name="directorate_label">المديرية</string>
+    <string name="inspection_start_date">تاريخ بداية الزيارة</string>
+    <string name="procedures">الإجراءات</string>
+    <string name="start_visit">بدء الزيارة</string>
+    <string name="additional_services">خدمات إضافية</string>
+    <string name="inspection_result">نتائج المفتشين</string>
+    <string name="display_result">عرض النتائج</string>
+    <string name="recommendation">التوصيات</string>
+
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="start_visit_confirm">هل تريد بدء زيارة تفتيشية بالفعل ؟</string>
+
+
+    <string name="agree">موافق</string>
+    <string name="successfully_downloaded">تم تنزيل طلب افادة متعطل بنجاح</string>
+    <string name="edu_department_empty">يجب عليك اختيار التخصص أولاً</string>
+    <string name="edu_type_empty">يجب عليك اختيار نوع التعليم </string>
+    <!--additional services -->
+    <string name="take_procedures_inspection_visit">اتخاذ إجراءات/ خدمات الزيارات التفتيشية</string>
+    <string name="edit_construction_data">تعديل بيانات المنشأة</string>
+    <string name="worker_info">بيانات العمال</string>
+    <string name="occupational_safety_and_health">السلامة والصحة والمهنية</string>
+
+    <string name="is_the_construction_licensed">هل المنشأة مرخصة؟</string>
+    <string name="licensed_side">جهة الترخيص</string>
+    <string name="licensed_sides">الجهات المرخصة</string>
+    <string name="licensed_sides_empty">لم يتم الترخيص</string>
+    <string name="registered_sides_empty">لم يتم التسجيل</string>
+    <string name="licensed_number">رقم الترخيص</string>
+    <string name="no_internet_to_show">لا يوجد انترنت لعرض البيانات</string>
+    <string name="no_internet_to_download">لا يوجد انترنت لتحميل الملف</string>
+    <string name="download_unemployment">تحميل ملف إفادة متعطل</string>
+    <string name="download_complete">لقد تم تحميل ملف إفادة متعطل</string>
+
+
+    <string name="add_file">إرفاق ملف</string>
+    <string name="save_licensed_side">حفظ جهة الترخيص</string>
+    <string name="save_licensed_info">حفظ بيانات الترخيص</string>
+
+
+    <string name="is_the_construction_registration">هل المنشأة مسجلة؟</string>
+    <string name="registration_side">جهة التسجيل</string>
+    <string name="registration_sides">الجهات المسجلة</string>
+    <string name="registration_number">رقم التسجيل</string>
+
+    <string name="is_there_an_insurance">هل يوجد تأمين في المنشأة (إصابات عمل)؟</string>
+    <string name="insurance_company">شركة التأمين</string>
+    <string name="insurance_number">رقم بوليصة التأمين</string>
+    <string name="insurance_end_date">تاريخ انتهاء بوليصة التأمين</string>
+
+    <string name="is_there_an_internal_system">هل يوجد نظام داخلي ولائحة اجراءات للمنشأة؟</string>
+    <string name="is_the_internal_system_confirmed">هل النظام الداخلي مصدق من وزارة العمل؟</string>
+    <string name="internal_system_file">المرفقات الخاصة بالنظام الداخلي</string>
+    <string name="total_work_hour">مجموع عمل ساعات العمل اليومية للمنشأة</string>
+    <string name="construction_work_time">وقت العمل للمنشأة</string>
+    <string name="morning">صباحي</string>
+    <string name="evening">مسائي</string>
+    <string name="shifts">ورديات</string>
+    <string name="construction_capital">رأس المال للمنشأة</string>
+    <string name="construction_income_level">مستوى دخل المنشأة</string>
+    <string name="construction_telephone">رقم الهاتف للمنشأة</string>
+    <string name="construction_mobile">رقم المحمول للمنشأة</string>
+    <string name="construction_fax">رقم الفاكس للمنشأة</string>
+
+
+    <string name="official_business_name">الاسم التجاري الرسمي للمنشأة</string>
+    <string name="trade_business_name">الاسم التجاري المستخدم للمنشأة</string>
+    <string name="street_detail">تفصيل الشارع</string>
+    <string name="dangerous_degree">درجة الخطورة</string>
+
+    <string name="construction_type">نوع المنشأة</string>
+    <string name="legal_entity">الكيان القانوني</string>
+
+    <string name="license_data">بيانات الترخيص</string>
+    <string name="approver_data">بيانات المدلي</string>
+
+    <string name="approver_adjectives">صفة المدلي بالبيانات</string>
+    <string name="approver_sn">رقم هوية المدلي</string>
+    <string name="approver_name">اسم المدلي</string>
+    <string name="interview_result">نتيجة المقابلة</string>
+    <string name="Completed">مكتملة</string>
+    <string name="partial_Completed">اكتمال جزئي</string>
+    <string name="unCompleted">غير مكتملة</string>
+    <string name="unComplete_reason">سبب عدم الاكتمال</string>
+    <string name="owner">المالك</string>
+    <string name="manager">المدير</string>
+    <string name="one_of_employees">أحد الموظفين</string>
+    <string name="commissioner">المفوض</string>
+    <string name="owner_sn">رقم هوية المالك</string>
+    <string name="owner_start_work_date">تاريخ بدء عمل المالك</string>
+    <string name="manager_sn">رقم هوية المدير المسؤول</string>
+    <string name="manager_name">اسم المدير المسؤول</string>
+    <string name="add_owner">إضافة مالك</string>
+    <string name="add_secondary_sector">إضافة نشاط ثانوي</string>
+    <string name="construction_ownership">ملكية المنشأة</string>
+    <string name="main_active">النشاط الرئيسي</string>
+    <string name="active_description">وصف النشاط</string>
+    <string name="is_there_any_secondary_active">هل تمارس المنشأة أنشطة اقتصادية ثانوية؟ </string>
+    <string name="secondary_active">النشاط الثانوي</string>
+    <string name="secondary_active_code">كود النشاط الثانوي</string>
+    <string name="secondary_active_name">اسم النشاط الثانوي</string>
+    <string name="construction_permanence"> ديمومة المؤسسة</string>
+    <string name="practicing_year">سنة المزاولة</string>
+    <string name="start_date">تاريخ البداية</string>
+    <string name="end_date">تاريخ الانتهاء</string>
+    <string name="worker_number_when_establishing">عدد العاملين عند التأسيس</string>
+    <string name="worker_number_currently">عدد العالملين حاليا</string>
+    <string name="owners">المالكون</string>
+    <string name="construction_ownership_files">اختر الملفات الخاصة بملكية المنشأة</string>
+    <string name="insert_worker">إضافة عامل</string>
+    <string name="attached_file">الملف المرفق</string>
+
+    <string name="occupational_safety_sample">نموذج إستيفاء شروط السلامة و الصحة المهنية</string>
+    <string name="another_sample">نماذج أخرى</string>
+
+    <string name="recommend_this_action">أوصي بانخاذ الإجراءات التالية</string>
+
+
+    <string name="update_practical_status_empty">يجب عليك ملء جميع الحقول عدا تاريخ نهاية العمل يمكن تركه فارغا</string>
+    <string name="update_practical_status_confirm">هل تريد تعديل الحالة العملية</string>
+    <string name="choose_work_status_first">يجب عليك اختيار الحالة العملية أولاً</string>
+    <string name="store_inspection_result_empty">يجب عليك ملء جميع الحقول عدا الملاحظات</string>
+    <string name="boss_empty">يجب عليك ملء جميع الحقول عدا سبب عدم الاكتمال ورقم الهوية ان كانت غير متاحة</string>
+    <string name="empty">يجب عليك ملء جميع الحقول </string>
+    <string name="phone_less_than_10">لا يمكن أن يكون رقم المحمول أقل من عشرة</string>
+
+    <string name="save_training_program">هل تريد حفظ البرنامج التدريبي</string>
+    <string name="edit_training_program">هل تريد تعديل البرنامج التدريبي</string>
+
+
+    <!--Revisit -->
+    <string name="has_the_violations_removed">هل تم إزالة المخالفات المضبوطة</string>
+    <string name="adoption_procedure">1. إقرار الإجراءات التالية</string>
+    <string name="recommendation_this">2. أوصي باتخاذ الإجراءات التالية</string>
+
+    <!-- QayedArchive -->
+    <string name="request_date">تاريخ الطلب</string>
+    <string name="educational_status_desc">تفصيل الحالة العملية</string>
+    <string name="educational_status_desc_desc">تفصيل تفصيل الحالة العملية</string>
+    <string name="request_status">الحالة</string>ظ
+    <string name="no_cards">لا يوجد طلب </string>
+    <string name="archive_title">أرشيف طلبات شهادات القيد </string>
+    <string name="in_progress">قيد التنفيذ</string>
+    <string name="certificate">شهادات القيد</string>
+
+    <string name="project_name">اسم المشروع</string>
+    <string name="project_start_date">تاريخ بدايةالمشروع</string>
+    <string name="active_sector">قطاع النشاط</string>
+    <string name="supporting_institute">الاستفادة من الحاضنات</string>
+
+    <!--temp work -->
+    <string name="temp_work">الاستفادة من برامج التشغيل</string>
+    <string name="program_name">اسم البربامج</string>
+    <string name="funding_agency">جهة التمويل</string>
+    <string name="employer">جهة العمل</string>
+    <string name="implementing_agency">جهة التنفيذ</string>
+    <string name="wage">قيمة الأجر</string>
+    <string name="no_temp_work">لم تتم الاستفادة من أي برنامج تشغيلي</string>
+
+    <string name="can_not_change">لا يمكنك التعديل فقط أرسلت البيانات للاعتماد</string>
+    <string name="bigger_than_today">يجب اختيار تاريخ أكبر من اليوم</string>
+
+    <string name="sn_must_be_9">لا يمكن أن تكون رقم الهوية أقل من تسع أرقام</string>
+    <string name="committed">ملتزم</string>
+    <string name="not_committed">غير ملتزم</string>
+    <string name="law_number">مادة رقم</string>
+
+    <string name="work_status_data">بيانات الحالة العملية</string>
+    <string name="health_status_data">بيانات الحالة الصحية</string>
+    <string name="usersn_no_internet">لا يوجد انترنت سيتم حفظ رقم الهوية وتخزينها وارسالها عند الاتصال بالانترنت</string>
+
+    <string name="scientific_qualification">المؤهل العلمي</string>
+    <string name="per_exam">الفحص الطبي الدوري</string>
+    <string name="prim_exam">الفحص الطبي الابتدائي</string>
+    <string name="main_data_construct_empty">يجب عليك تعبئة الاسم التجاري الرسمي والمستخدم والمحافظة  والبلدية ورقم المحمول والهاتف على الأقل </string>
+
+    <string name="have_certificate">حاصل على شهادة قيد</string>
+    <string name="payment_type">طريقة الدفع</string>
+
+    <string name="next">التالي</string>
+
+    <string name="allow_permission">السماح بالصلاحيات</string>
+    <string name="need_permission">التطبيق يحتاج الوصول الي الذاكرة من أجل رفع الملف</string>
+    <string name="go_to_settings">الذهاب الي الاعدادات</string>
+
+    <string name="realistic">و - واقعي</string>
+    <string name="investigative">س - استقصائي</string>
+    <string name="artistic">ف - فني</string>
+    <string name="social">ج - اجتماعي</string>
+    <string name="enterprising">م - مبادر</string>
+    <string name="conventional">ت - تقليدي</string>
+
+
+    <!--numbers-->
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="phone_or_telefon">الجوال او التلفون</string>
+    <string name="season">فصل</string>
+    <string name="leving">ترك</string>
+    <string name="facility_name">حدد اسم المنشأة</string>
+    <string name="number_caracter">"ادخل على الاقل 3 احرف "</string>
+    <string name="revisit">القيمة</string>
+    <string name="completed">مكتمل</string>
+</resources>
